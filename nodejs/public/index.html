@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fr" ng-app="app">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="">
+		<meta name="author" content="">
+
+		<title>Drone dirigeable</title>
+
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+		<link href="css/added.css" rel="stylesheet">
+
+		<!-- Just for debugging purposes. Don't actually copy this line! -->
+		<!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+		<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!--[if lt IE 9]>
+			<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+			<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+		<![endif]-->
+	</head>
+
+	<body ng-controller="MainController as Main">
+
+		<div class="container">
+			<div class="jumbotron">
+				<h1>Drone dirigeable</h1>
+			</div>
+
+			<div class="">
+				
+				<form ng-submit="sendOrder()">
+					<div class="input-group">
+						<input type="text" class="form-control input-lg" ng-model="order">
+						<span class="input-group-btn">
+							<button class="btn btn-lg btn-primary" type="submit">Envoyer</button>
+						</span>
+					</div>
+				</form>
+
+				<div class="messages">
+					<p ng-repeat="message in stack" class="{{alertType(message)}}">{{ message.content }}</p>
+				</div>
+
+			</div>
+
+			<div class="footer">
+				<p class="text-center">
+					Pilotage d'un drone télécommandé par ordinateur<br>
+					Projet de PPE - Lycée du Grésivaudan (Isère) TS5-SI <br>
+				</p>
+			</div>
+
+		</div> <!-- /container -->
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.27/angular.min.js"></script>
+		
+		<script src="/socket.io/socket.io.js"></script>
+		<script src="/js/main.js"></script>
+
+	</body>
+</html>

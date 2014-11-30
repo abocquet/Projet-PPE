@@ -1,0 +1,14 @@
+{
+
+	"name" : "dirigeable",
+  "description" : "An arduino interface for highschool project.",
+  "homepage" : "https://dirigeable.wikispaces.com",
+  "author" : "Adrien Bocquet <adrienbocquet38@gmail.com",
+  "version" : "0.0.1",
+
+	"dependencies": {
+		"express.io": "^1.1.13",
+		"lodash": "^2.4.1",
+		"serialport": "^1.4.6"
+	}
+}

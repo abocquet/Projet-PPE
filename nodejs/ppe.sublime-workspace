@@ -1,0 +1,2051 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"class",
+				"className"
+			],
+			[
+				"type",
+				"type"
+			],
+			[
+				"Main",
+				"MainController"
+			],
+			[
+				"re",
+				"return"
+			],
+			[
+				"data",
+				"datas"
+			],
+			[
+				"ro",
+				"rows"
+			],
+			[
+				"for",
+				"for	for (…) {…} (Improved Native For-Loop)"
+			],
+			[
+				"temp",
+				"temperature"
+			],
+			[
+				"conn",
+				"connection"
+			],
+			[
+				"tim",
+				"time"
+			],
+			[
+				"e",
+				"events"
+			],
+			[
+				"dat",
+				"datas"
+			],
+			[
+				"mo",
+				"mongoose"
+			],
+			[
+				"hei",
+				"height"
+			],
+			[
+				"cons",
+				"console"
+			],
+			[
+				"clear",
+				"clearInterval();"
+			],
+			[
+				"sock",
+				"socket"
+			],
+			[
+				"ra",
+				"rapport"
+			],
+			[
+				"con",
+				"console.log(message);"
+			],
+			[
+				"req",
+				"req"
+			],
+			[
+				"new",
+				"newer"
+			],
+			[
+				"R",
+				"Revision"
+			],
+			[
+				"save",
+				"saveArticles"
+			],
+			[
+				"art",
+				"articles"
+			],
+			[
+				"article",
+				"articles"
+			],
+			[
+				"li",
+				"links"
+			],
+			[
+				"lo",
+				"lodash"
+			],
+			[
+				"che",
+				"checksum"
+			],
+			[
+				"nb",
+				"nb_done"
+			],
+			[
+				"nb_",
+				"nb_done"
+			],
+			[
+				"Data",
+				"DataTypes"
+			],
+			[
+				"model",
+				"models"
+			],
+			[
+				"s",
+				"sequelize"
+			],
+			[
+				"mod",
+				"module"
+			],
+			[
+				"com",
+				"compare"
+			],
+			[
+				"revisi",
+				"revisions"
+			],
+			[
+				"child",
+				"children"
+			],
+			[
+				"co",
+				"console.log(message);"
+			],
+			[
+				"pa",
+				"padding-bottom"
+			],
+			[
+				"revis",
+				"revisions"
+			],
+			[
+				"rev",
+				"revName"
+			],
+			[
+				"Ar",
+				"ArticleSchema"
+			],
+			[
+				"pro",
+				"process"
+			],
+			[
+				"arti",
+				"articles"
+			],
+			[
+				"a",
+				"articles"
+			],
+			[
+				"ar",
+				"articles"
+			],
+			[
+				"sta",
+				"start"
+			],
+			[
+				"par",
+				"parsing"
+			],
+			[
+				"pr",
+				"progress"
+			],
+			[
+				"l",
+				"log"
+			],
+			[
+				"upd",
+				"updates"
+			],
+			[
+				"A",
+				"Article"
+			],
+			[
+				"find",
+				"findOrCreate"
+			],
+			[
+				"Art",
+				"ArticleSchema"
+			],
+			[
+				"defe",
+				"deferred"
+			],
+			[
+				"Ari",
+				"Article"
+			],
+			[
+				"get",
+				"getPath"
+			],
+			[
+				"r",
+				"revision"
+			],
+			[
+				"start",
+				"startLoad"
+			],
+			[
+				"proge",
+				"progressbar"
+			],
+			[
+				"lin",
+				"link"
+			],
+			[
+				"soc",
+				"socket"
+			],
+			[
+				"sockets",
+				"sockets"
+			],
+			[
+				"proc",
+				"process"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"liste",
+				"liste_articles"
+			],
+			[
+				"fi",
+				"field"
+			],
+			[
+				"er",
+				"error"
+			],
+			[
+				"valid",
+				"validators"
+			],
+			[
+				"vali",
+				"validate"
+			],
+			[
+				"fiel",
+				"fields"
+			],
+			[
+				"fie",
+				"fields"
+			],
+			[
+				"tri",
+				"traits"
+			],
+			[
+				"tr",
+				"traits"
+			],
+			[
+				"cla",
+				"className"
+			],
+			[
+				"o",
+				"object"
+			],
+			[
+				"cl",
+				"classNames"
+			],
+			[
+				"form",
+				"form_widget"
+			],
+			[
+				"ex",
+				"exports"
+			],
+			[
+				"bo",
+				"bootstrap_field"
+			],
+			[
+				"ch",
+				"checkAuth"
+			],
+			[
+				"m",
+				"module"
+			],
+			[
+				"T",
+				"TokenSchema"
+			],
+			[
+				"cos",
+				"console.log(message);"
+			],
+			[
+				"is",
+				"isAuthenticated"
+			],
+			[
+				"consol",
+				"console.log(message);"
+			],
+			[
+				"Use",
+				"UserSchema"
+			],
+			[
+				"User",
+				"User"
+			],
+			[
+				"h",
+				"helpers"
+			],
+			[
+				"Home",
+				"HomeController"
+			],
+			[
+				"contr",
+				"controllers"
+			],
+			[
+				"file",
+				"filepath"
+			],
+			[
+				"requi",
+				"require"
+			],
+			[
+				"cont",
+				"controller"
+			],
+			[
+				"cone",
+				"content"
+			],
+			[
+				"route",
+				"routes"
+			],
+			[
+				"var",
+				"varName"
+			],
+			[
+				"va",
+				"varName"
+			],
+			[
+				"rou",
+				"routes"
+			],
+			[
+				"reui",
+				"requirements"
+			],
+			[
+				"require",
+				"requirements"
+			],
+			[
+				"res",
+				"result"
+			],
+			[
+				"load",
+				"loadNextRoute"
+			],
+			[
+				"loa",
+				"loadRoutes"
+			],
+			[
+				"rq",
+				"requirements"
+			],
+			[
+				"console",
+				"console.log(message);"
+			],
+			[
+				"conso",
+				"console.log(message);"
+			],
+			[
+				"consoe",
+				"console.log(message);"
+			],
+			[
+				"tw",
+				"tweetId"
+			],
+			[
+				"t",
+				"twitter"
+			],
+			[
+				"edit",
+				"editing"
+			],
+			[
+				"lis",
+				"listeFavoris"
+			],
+			[
+				"set",
+				"setItem"
+			],
+			[
+				"loc",
+				"localStorage"
+			],
+			[
+				"ed",
+				"editing"
+			],
+			[
+				"mn",
+				"manager"
+			],
+			[
+				"edi",
+				"editFav"
+			],
+			[
+				"call",
+				"callback"
+			],
+			[
+				"utili",
+				"utilisateur"
+			],
+			[
+				"connec",
+				"connected"
+			],
+			[
+				"conec",
+				"connection"
+			],
+			[
+				"so",
+				"socket"
+			],
+			[
+				"mon",
+				"mongoose"
+			],
+			[
+				"sec",
+				"security"
+			],
+			[
+				"mongo",
+				"mongodb"
+			],
+			[
+				"stat",
+				"status"
+			],
+			[
+				"string",
+				"stringify"
+			],
+			[
+				"ac",
+				"activeIndex"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "Packages/User/PHP-Lint.sublime-build",
+	"command_palette":
+	{
+		"height": 287.0,
+		"selected_items":
+		[
+			[
+				"mark",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"tabs",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"de",
+				"File: Delete"
+			],
+			[
+				"dee",
+				"File: Delete"
+			],
+			[
+				"js",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"ren",
+				"File: Rename"
+			],
+			[
+				"jquer",
+				"Snippet: Google AJAX Libraries: jQuery"
+			],
+			[
+				"renam",
+				"File: Rename"
+			],
+			[
+				"dupl",
+				"File: Duplicate"
+			],
+			[
+				"du",
+				"File: Duplicate"
+			],
+			[
+				"dele",
+				"File: Delete"
+			],
+			[
+				"refre",
+				"Side Bar: Refresh"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"remoe",
+				"Emmet: Remove Tag"
+			],
+			[
+				"lin",
+				"Sort Lines"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"twig",
+				"Set Syntax: HTML (Twig)"
+			],
+			[
+				"rabs",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"",
+				"Bookmarks: Toggle"
+			],
+			[
+				"tab",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"del",
+				"File: Delete"
+			],
+			[
+				"re",
+				"File: Rename"
+			],
+			[
+				"TABS",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"d",
+				"File: Duplicate"
+			],
+			[
+				"twi",
+				"Set Syntax: HTML (Twig)"
+			],
+			[
+				"plain",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"json",
+				"Set Syntax: JSON"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"move",
+				"File: Move"
+			],
+			[
+				"nun",
+				"Set Syntax: Nunjucks"
+			],
+			[
+				"npm",
+				"Nodejs::NPM::Install"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"han",
+				"Set Syntax: Handlebars"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"mus",
+				"Set Syntax: HTML with mustaches"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"edit",
+				"Project: Edit"
+			],
+			[
+				"ref",
+				"Side Bar: Refresh"
+			],
+			[
+				"ta",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"align",
+				"AlignTab"
+			],
+			[
+				"ali",
+				"AlignTab"
+			],
+			[
+				"inde",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"sni",
+				"Snippet: Prototype"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"packre",
+				"Package Control: Remove Package"
+			],
+			[
+				"pac",
+				"Package Control: Remove Package"
+			],
+			[
+				"sass",
+				"SassBeautify"
+			],
+			[
+				"alig",
+				"AlignTab: Table Mode"
+			],
+			[
+				"rena",
+				"File: Rename"
+			],
+			[
+				"jqu",
+				"Snippet: Google AJAX Libraries: jQuery"
+			],
+			[
+				"html",
+				"Set Syntax: HTML5"
+			],
+			[
+				"rem",
+				"File: Rename"
+			],
+			[
+				"snij",
+				"Snippet: Google AJAX Libraries: jQuery"
+			],
+			[
+				"ejs",
+				"Set Syntax: EJS (<? and ?>)"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"snipp",
+				"Snippet: html"
+			],
+			[
+				"run",
+				"Nodejs::Debug::Run::Current File"
+			],
+			[
+				"nodeset",
+				"Nodejs::User File Settings"
+			],
+			[
+				"node",
+				"Nodejs::Run::Current File"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"edi",
+				"Project: Edit"
+			],
+			[
+				"proedit",
+				"Project: Edit"
+			],
+			[
+				"snippreset",
+				"Snippet: Eric Meyer's Reset CSS"
+			],
+			[
+				"reset",
+				"Snippet: counter-reset"
+			],
+			[
+				"side",
+				"View: Toggle Side Bar"
+			],
+			[
+				"ind",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"dul",
+				"File: Duplicate"
+			],
+			[
+				"toggle",
+				"View: Toggle Minimap"
+			],
+			[
+				"inden",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"dup",
+				"File: Duplicate"
+			],
+			[
+				"space",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"sideba",
+				"View: Toggle Side Bar"
+			],
+			[
+				"duple",
+				"File: Duplicate"
+			],
+			[
+				"lower",
+				"Convert Case: Lower Case"
+			],
+			[
+				"sid",
+				"View: Toggle Side Bar"
+			],
+			[
+				"mv",
+				"File: Move"
+			],
+			[
+				"php",
+				"Set Syntax: PHP"
+			],
+			[
+				"refr",
+				"Side Bar: Refresh"
+			],
+			[
+				"r",
+				"File: Rename"
+			],
+			[
+				"sideb",
+				"View: Toggle Side Bar"
+			],
+			[
+				"delet",
+				"File: Delete"
+			],
+			[
+				"upgra",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"upd",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"duplce",
+				"File: Duplicate"
+			],
+			[
+				"spce",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"sql",
+				"Set Syntax: SQL"
+			],
+			[
+				"duc",
+				"File: Duplicate"
+			],
+			[
+				"mo",
+				"File: Move"
+			],
+			[
+				"tootabs",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"spaces",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"package",
+				"Package Control: Remove Package"
+			],
+			[
+				"yml",
+				"Set Syntax: YAML"
+			],
+			[
+				"rename",
+				"File: Rename"
+			],
+			[
+				"comtype",
+				"Snippet: Symfony2 / Controller / Form Type"
+			],
+			[
+				"rna",
+				"File: Rename"
+			],
+			[
+				"add",
+				"Project: Add Folder"
+			],
+			[
+				"s",
+				"Side Bar: Refresh"
+			],
+			[
+				"snihtml",
+				"Snippet: html"
+			],
+			[
+				"class",
+				"Snippet: class …"
+			],
+			[
+				"spac",
+				"Indentation: Convert to Spaces"
+			],
+			[
+				"rea",
+				"File: Rename"
+			],
+			[
+				"media",
+				"Snippet: @media screen"
+			],
+			[
+				"delete",
+				"File: Delete"
+			],
+			[
+				"refresh",
+				"Side Bar: Refresh"
+			],
+			[
+				"renm",
+				"File: Rename"
+			],
+			[
+				"conver",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"snippet ",
+				"Snippet: html"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"snippet",
+				"Snippet: html"
+			],
+			[
+				"ugr",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"emmet bo",
+				"Emmet: Expand Abbreviation"
+			],
+			[
+				"border-ra",
+				"Snippet: border-radius"
+			],
+			[
+				"emmet",
+				"Emmet: Merge Lines"
+			],
+			[
+				"gist",
+				"Gist: Update File"
+			],
+			[
+				"convert",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"open",
+				"File: Open In Browser - Testing Server"
+			],
+			[
+				"packe",
+				"Package Control: Remove Package"
+			],
+			[
+				"gis",
+				"Gist: Update File"
+			],
+			[
+				"gist open",
+				"Gist: Open Gist in Browser"
+			],
+			[
+				"giste",
+				"Gist: Add File to Gist"
+			],
+			[
+				"sidebar",
+				"View: Toggle Side Bar"
+			],
+			[
+				"contro",
+				"Package Control: Remove Package"
+			],
+			[
+				"pro",
+				"Project: Edit"
+			],
+			[
+				"bro",
+				"Preferences: Browse Packages"
+			],
+			[
+				"instak",
+				"Package Control: Install Package"
+			],
+			[
+				"toggle s",
+				"View: Toggle Open Files in Side Bar"
+			],
+			[
+				"Snippet: ",
+				"Snippet: html"
+			],
+			[
+				"fet",
+				"Fetch: Package"
+			]
+		],
+		"width": 575.0
+	},
+	"console":
+	{
+		"height": 111.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/adrienbocquet/Programmation/Projet-PPE/README.md",
+		"/Users/adrienbocquet/Programmation/Projet-PPE/nodejs/package.json",
+		"/Users/adrienbocquet/Programmation/Projet-PPE/nodejs/public/index.html",
+		"/Users/adrienbocquet/Programmation/Projet-PPE/nodejs/public/css/added.css",
+		"/Users/adrienbocquet/Programmation/Projet-PPE/nodejs/public/js/main.js",
+		"/Users/adrienbocquet/Programmation/Projet-PPE/nodejs/app.js",
+		"/Users/adrienbocquet/Programmation/Projet-PPE/nodejs/arduino.js",
+		"/Users/adrienbocquet/Programmation/Projet-PPE/arduino/echo.ino",
+		"/Users/adrienbocquet/Programmation/NodeJS/PPE/public/js/datas.js",
+		"/Users/adrienbocquet/Programmation/NodeJS/PPE/view/index.html",
+		"/Users/adrienbocquet/Programmation/NodeJS/PPE/serial.js",
+		"/Users/adrienbocquet/Programmation/NodeJS/PPE/app.js",
+		"/Users/adrienbocquet/Programmation/NodeJS/PPE/ppe.sublime-project",
+		"/Users/adrienbocquet/Desktop/PPE/serial.js",
+		"/Users/adrienbocquet/Desktop/PPE/model.js",
+		"/Users/adrienbocquet/Desktop/PPE/views/index.html",
+		"/Users/adrienbocquet/Desktop/PPE/app.js",
+		"/Users/adrienbocquet/Desktop/PPE/sockets.js",
+		"/Users/adrienbocquet/Desktop/PPE/public/js/datas.js",
+		"/Users/adrienbocquet/Desktop/PPE/schema.sql",
+		"/Users/adrienbocquet/Desktop/PPE/events.js",
+		"/Users/adrienbocquet/Desktop/PPE/routes/index.js",
+		"/Users/adrienbocquet/Desktop/PPE/db.js",
+		"/Users/adrienbocquet/Desktop/PPE/models.js",
+		"/Users/adrienbocquet/Desktop/PPE/public/css/added.css",
+		"/Users/adrienbocquet/Desktop/PPE/serial",
+		"/Users/adrienbocquet/Desktop/PPE/models/index.js",
+		"/Users/adrienbocquet/Desktop/PPE/public/js/parser.js",
+		"/Users/adrienbocquet/Desktop/PPE/ppe.sublime-project",
+		"/Users/adrienbocquet/Programmation/NodeJS/code urbanisme/app.js",
+		"/Users/adrienbocquet/Programmation/NodeJS/code urbanisme/models/index.js",
+		"/Users/adrienbocquet/Programmation/NodeJS/code urbanisme/models/rapport.js",
+		"/Users/adrienbocquet/Sites/MAMP/KUB/src/Kub/UserBundle/DataFixtures/ORM/LoadManitouData.php",
+		"/Users/adrienbocquet/Programmation/NodeJS/code urbanisme/routes/index.js",
+		"/Users/adrienbocquet/Programmation/NodeJS/code urbanisme/parser.js",
+		"/Users/adrienbocquet/Programmation/NodeJS/code urbanisme/models/revision.js",
+		"/Users/adrienbocquet/Programmation/NodeJS/code urbanisme/routes/rapports.js",
+		"/Users/adrienbocquet/Programmation/NodeJS/code urbanisme/routes/revisions.js",
+		"/Users/adrienbocquet/Programmation/NodeJS/code urbanisme/routes/rapport.js",
+		"/Users/adrienbocquet/Programmation/NodeJS/code urbanisme/index.js",
+		"/Users/adrienbocquet/Programmation/NodeJS/code urbanisme/routes.js",
+		"/Users/adrienbocquet/Programmation/NodeJS/code urbanisme/models/article.js",
+		"/Users/adrienbocquet/Programmation/NodeJS/code urbanisme/views/list_revisions.html",
+		"/Users/adrienbocquet/Programmation/NodeJS/code urbanisme/public/js/revisions.js",
+		"/Users/adrienbocquet/Programmation/NodeJS/code urbanisme/sockets.js",
+		"/Users/adrienbocquet/Programmation/NodeJS/code urbanisme/db.js",
+		"/Users/adrienbocquet/Programmation/NodeJS/code urbanisme/public/css/additional.css",
+		"/Users/adrienbocquet/Programmation/NodeJS/code urbanisme/models.js",
+		"/Users/adrienbocquet/Programmation/NodeJS/code urbanisme/public/js/parser.js",
+		"/Users/adrienbocquet/Programmation/NodeJS/code urbanisme/views/partials/navbar.html",
+		"/Users/adrienbocquet/Programmation/NodeJS/code urbanisme/views/base.html",
+		"/Users/adrienbocquet/Programmation/NodeJS/code urbanisme/views/index.html",
+		"/Users/adrienbocquet/Programmation/NodeJS/code urbanisme/views/parse.html",
+		"/Users/adrienbocquet/Programmation/NodeJS/code urbanisme/fsmanager.js",
+		"/Users/adrienbocquet/Programmation/NodeJS/code urbanisme/node_modules/express/node_modules/commander/Readme.md",
+		"/Users/adrienbocquet/Programmation/NodeJS/code urbanisme/comparater.js",
+		"/Users/adrienbocquet/Programmation/NodeJS/code urbanisme/events.js",
+		"/Users/adrienbocquet/Programmation/NodeJS/code urbanisme/urbanisme.sublime-project",
+		"/Users/adrienbocquet/Programmation/NodeJS/forms/form/widgets/Text.js",
+		"/Users/adrienbocquet/Programmation/NodeJS/forms/form/widgets/Field.js",
+		"/Users/adrienbocquet/Programmation/NodeJS/forms/form/index.js",
+		"/Users/adrienbocquet/Programmation/NodeJS/forms/views/index.html",
+		"/Users/adrienbocquet/Programmation/NodeJS/forms/form/traits.js",
+		"/Users/adrienbocquet/Programmation/NodeJS/forms/app.js",
+		"/Users/adrienbocquet/Programmation/NodeJS/forms/form/validators/NotNull.js",
+		"/Users/adrienbocquet/Programmation/NodeJS/forms/form/validators/index.js",
+		"/Users/adrienbocquet/Programmation/NodeJS/forms/form/validators/Length.js",
+		"/Users/adrienbocquet/Programmation/NodeJS/forms/forms.sublime-project",
+		"/Users/adrienbocquet/Programmation/NodeJS/forms/form/views/errors.html",
+		"/Users/adrienbocquet/Programmation/NodeJS/forms/form/views/label.html",
+		"/Users/adrienbocquet/Programmation/NodeJS/forms/form/views/text.html",
+		"/Users/adrienbocquet/Programmation/NodeJS/forms/form/Label.js",
+		"/Users/adrienbocquet/Programmation/NodeJS/forms/form/validators/ErrorType.js",
+		"/Users/adrienbocquet/Programmation/NodeJS/forms/form/widgets/index.js",
+		"/Users/adrienbocquet/Programmation/NodeJS/forms/form/widgets/traits.js",
+		"/Users/adrienbocquet/Programmation/NodeJS/forms/form/views/macros.html",
+		"/Users/adrienbocquet/Programmation/NodeJS/forms/form/package.json",
+		"/Users/adrienbocquet/Programmation/NodeJS/forms/form/views/row.html",
+		"/Users/adrienbocquet/Programmation/NodeJS/forms/form/views/full.html",
+		"/Users/adrienbocquet/Programmation/NodeJS/forms/form/lib/widgets/Text.js",
+		"/Users/adrienbocquet/Programmation/NodeJS/forms/form/lib/widgets/index.js",
+		"/Users/adrienbocquet/Programmation/NodeJS/forms/form/lib/Label.js",
+		"/Users/adrienbocquet/Programmation/NodeJS/forms/form/lib/widgets/text.js",
+		"/Users/adrienbocquet/Programmation/NodeJS/forms/form/constraints/index.js",
+		"/Users/adrienbocquet/Programmation/NodeJS/Press/press.sublime-project",
+		"/Users/adrienbocquet/Programmation/NodeJS/Yannbox/lib/security.js",
+		"/Users/adrienbocquet/Programmation/NodeJS/Yannbox/views/user/profil.html",
+		"/Users/adrienbocquet/Programmation/NodeJS/Yannbox/lib/routing/user.js",
+		"/Users/adrienbocquet/Programmation/NodeJS/Yannbox/views/login.html",
+		"/Users/adrienbocquet/Programmation/NodeJS/Yannbox/lib/helpers.js",
+		"/Users/adrienbocquet/Programmation/NodeJS/Yannbox/app.js",
+		"/Users/adrienbocquet/Programmation/NodeJS/Yannbox/lib/routing/security.js",
+		"/Users/adrienbocquet/Programmation/NodeJS/Yannbox/views/partials/navbar.html",
+		"/Users/adrienbocquet/Programmation/NodeJS/Yannbox/views/profil.html",
+		"/Users/adrienbocquet/Programmation/NodeJS/Yannbox/views/base.html",
+		"/Users/adrienbocquet/Programmation/NodeJS/Yannbox/lib/model.js",
+		"/Users/adrienbocquet/Programmation/NodeJS/Yannbox/lib/routes.js",
+		"/Users/adrienbocquet/Programmation/NodeJS/YannBox/lib/security.js",
+		"/Users/adrienbocquet/Programmation/NodeJS/Yannbox/lib/routing/front.js",
+		"/Users/adrienbocquet/Programmation/NodeJS/Yannbox/views/index.html",
+		"/Users/adrienbocquet/Programmation/NodeJS/Yannbox/lib/fixtures.js",
+		"/Users/adrienbocquet/Programmation/NodeJS/YannBox/views/login.html",
+		"/Users/adrienbocquet/Programmation/NodeJS/YannBox/lib/helpers.js",
+		"/Users/adrienbocquet/Programmation/NodeJS/YannBox/lib/db.js",
+		"/Users/adrienbocquet/Programmation/NodeJS/YannBox/lib/model.js",
+		"/Users/adrienbocquet/Programmation/NodeJS/YannBox/app.js",
+		"/Users/adrienbocquet/Programmation/NodeJS/YannBox/lib/helpers",
+		"/Users/adrienbocquet/Programmation/NodeJS/YannBox/routing/front.js",
+		"/Users/adrienbocquet/Programmation/NodeJS/YannBox/routes.js",
+		"/Users/adrienbocquet/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/adrienbocquet/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/adrienbocquet/Programmation/NodeJS/Yannbox/public/css/style.css",
+		"/Users/adrienbocquet/Programmation/NodeJS/YannBox/views/index.html",
+		"/Users/adrienbocquet/Programmation/NodeJS/YannBox/views/navbar.html",
+		"/Users/adrienbocquet/Programmation/NodeJS/YannBox/style.css",
+		"/Users/adrienbocquet/Programmation/NodeJS/YannBox/views/body {",
+		"/Users/adrienbocquet/Programmation/NodeJS/YannBox/routing/base.html",
+		"/Users/adrienbocquet/Programmation/NodeJS/YannBox/views/index.hbs",
+		"/Users/adrienbocquet/Programmation/NodeJS/YannBox/views/index.handlebars",
+		"/Users/adrienbocquet/Programmation/NodeJS/YannBox/yannbox.sublime-project",
+		"/Users/adrienbocquet/Programmation/NodeJS/Press/kernel.js",
+		"/Users/adrienbocquet/Programmation/NodeJS/Press/Controllers/HomeController.js",
+		"/Users/adrienbocquet/Programmation/NodeJS/Press/routing.json",
+		"/Users/adrienbocquet/Programmation/NodeJS/Press/router.js",
+		"/Users/adrienbocquet/Programmation/NodeJS/router/routing.json",
+		"/Users/adrienbocquet/Programmation/NodeJS/router/router.js",
+		"/Users/adrienbocquet/Programmation/NodeJS/router/Controllers/HomeController.js",
+		"/Users/adrienbocquet/Programmation/NodeJS/router/kernel.js"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"/Users/adrienbocquet/Programmation/NodeJS/code urbanisme",
+			"/Users/adrienbocquet/Programmation/NodeJS/forms/",
+			"/Users/adrienbocquet/Programmation/NodeJS/YannBox/",
+			"/Users/adrienbocquet/Programmation/NodeJS/Amabus/",
+			"/Users/adrienbocquet/Programmation/NodeJS/Amabus/web/sass",
+			"/Users/adrienbocquet/Programmation/NodeJS/Amabus/web/css",
+			"/Users/adrienbocquet/Programmation/NodeJS/Amabus/js",
+			"/Users/adrienbocquet/Programmation/NodeJS/Amabus",
+			"/Users/adrienbocquet/Programmation/NodeJS/Amabus,-node_modules",
+			"/Users/adrienbocquet/Programmation/NodeJS/Amabus,node_modules",
+			"/Users/adrienbocquet/Programmation/NodeJS/Amabus",
+			"/Users/adrienbocquet/Sites/MAMP/Amabus/",
+			"/Users/adrienbocquet/Sites/MAMP/Amabus/sass",
+			"/Users/adrienbocquet/Desktop/Démo contact",
+			"/Users/adrienbocquet/Desktop/Démo contact,-*.jpg",
+			"/Users/adrienbocquet/Desktop/Démo contact",
+			"/Users/adrienbocquet/Sites/MAMP/KUB/",
+			"/Users/adrienbocquet/Sites/MAMP/KUB/src",
+			"/Users/adrienbocquet/Sites/MAMP/KUB/",
+			"/Users/adrienbocquet/Sites/MAMP/KUB/src",
+			"/Users/adrienbocquet/Sites/MAMP/KUB/web/",
+			"/Users/adrienbocquet/Sites/MAMP/KUB/src/",
+			"/Users/adrienbocquet/Sites/MAMP/KUB/src",
+			"/Users/adrienbocquet/Sites/MAMP/KUB/",
+			"/Users/adrienbocquet/Sites/MAMP/KUB/app",
+			"/Users/adrienbocquet/Sites/MAMP/KUB/src",
+			"/Users/adrienbocquet/Sites/MAMP/KUB/web,*.scss",
+			"/Users/adrienbocquet/Sites/MAMP/KUB/web",
+			"/Users/adrienbocquet/Sites/MAMP/KUB",
+			"/Users/adrienbocquet/Sites/MAMP/KUB/src",
+			"/Users/adrienbocquet/Sites/MAMP/KUB/src,*.twig",
+			"/Users/adrienbocquet/Sites/MAMP/KUB/src",
+			"/Users/adrienbocquet/Sites/MAMP/KUB/web",
+			"/Users/adrienbocquet/Sites/MAMP/KUB/src/",
+			"/Users/adrienbocquet/Sites/MAMP/KUB/src/NotificationBundle",
+			"/Users/adrienbocquet/Sites/MAMP/KUB/src/NotificationBundle/Entity",
+			"/Users/adrienbocquet/Sites/MAMP/KUB/src,*.yml",
+			"/Users/adrienbocquet/Sites/MAMP/KUB/src",
+			"/Users/adrienbocquet/Sites/MAMP/KUB/,*.scss",
+			"/Users/adrienbocquet/Sites/MAMP/KUB/src/,*.scss",
+			"/Users/adrienbocquet/Sites/MAMP/KUB/src/",
+			"/Users/adrienbocquet/Sites/MAMP/KUB/",
+			"/Users/adrienbocquet/Sites/MAMP/KUB/src/",
+			"/Users/adrienbocquet/Sites/MAMP/KUB/",
+			"/Users/adrienbocquet/Sites/MAMP/KUB/src/Kub/",
+			"/Users/adrienbocquet/Sites/MAMP/KUB/src/Kub/ClasseBundle/Resources,/Users/adrienbocquet/Sites/MAMP/KUB/src/Kub/EDTBundle/Resources",
+			"/Users/adrienbocquet/Sites/MAMP/KUB/src/Kub/*/Resources",
+			"/Users/adrienbocquet/Sites/MAMP/KUB/src/Kub/",
+			"/Users/adrienbocquet/Sites/MAMP/KUB/src/Kub/ClasseBundle",
+			"/Users/adrienbocquet/Sites/MAMP/KUB/src/Kub/",
+			"/Users/adrienbocquet/Sites/MAMP/KUB/src/Kub/UserBundle",
+			"/Users/adrienbocquet/Sites/MAMP/KUB/src/Kub/UserBundle/Resources",
+			"/Users/adrienbocquet/Sites/MAMP/Kub/src/Kub/UserBundle/",
+			"/Users/adrienbocquet/Sites/MAMP/Kub/src/Kub/UserBundle/Resources/",
+			"/Users/adrienbocquet/Sites/MAMP/Kub/src/Kub/UserBundle/Resources/view/Groupe/",
+			"/Users/adrienbocquet/Sites/MAMP/Kub/src/Kub/UserBundle/",
+			"/Users/adrienbocquet/Sites/MAMP/Kub/src/Kub/UserBundle/Ressources/",
+			"/Users/adrienbocquet/Sites/MAMP/Kub/src/Kub/UserBundle/Ressources/View",
+			"/Users/adrienbocquet/Sites/MAMP/Kub/src/Kub/UserBundle/",
+			"/Users/adrienbocquet/Sites/MAMP/Kub/src/Kub/UserBundle/Form/Type",
+			"/Users/adrienbocquet/Sites/MAMP/Kub/src/Kub/UserBundle/",
+			"/Users/adrienbocquet/Sites/MAMP/Kub/src/Kub/UserBundle/Form/Type",
+			"/Users/adrienbocquet/Sites/MAMP/Kub/src/Kub",
+			"/Users/adrienbocquet/Sites/MAMP/Kub/",
+			"/Users/adrienbocquet/Sites/MAMP/Kub/app",
+			"/Users/adrienbocquet/Sites/MAMP/Kub"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"alert-",
+			"info",
+			"push",
+			"stack",
+			"error",
+			"this",
+			"arduino",
+			"emitter",
+			"bridge",
+			"emitter",
+			"serialPort",
+			"serialort",
+			"SerialPort",
+			"serialport",
+			"serialPort",
+			"serialport",
+			"SerialPort",
+			"serialPort",
+			"bridge",
+			"data",
+			"error",
+			"Couveuse",
+			"200",
+			"0",
+			"219",
+			"col",
+			"chart",
+			"1000",
+			"151,187,205",
+			"220,220,220",
+			"datas",
+			";)",
+			"'][]",
+			"[",
+			"'][]",
+			"cycle",
+			"label",
+			"secret",
+			"temperatures",
+			"stateSchema",
+			"data",
+			"</canva",
+			"</",
+			"canvas",
+			"220,220,220",
+			"rgba(220,220,220,1)",
+			"6\"></canvas>",
+			"height",
+			"canevas",
+			"charts",
+			"},",
+			"{\n	{",
+			"7",
+			"1009",
+			"1023",
+			"p",
+			"mongoose",
+			"visiteurs",
+			"rapports",
+			"hasOne",
+			"createdAt",
+			"er",
+			"revision",
+			"revisions",
+			"User",
+			"Project",
+			"Article",
+			"nota",
+			"date",
+			"content",
+			"request",
+			"checksum",
+			"request",
+			"nme",
+			"that",
+			"nb_article",
+			"nb_articles",
+			"Revision",
+			"mongoose",
+			"createdAt",
+			"  ",
+			"User",
+			"    ",
+			"   ",
+			"  ",
+			"lodash",
+			"require",
+			"        ",
+			"       ",
+			"      ",
+			"     ",
+			"    ",
+			"   ",
+			"  ",
+			", ",
+			"Revision",
+			"String",
+			"right",
+			"<th class=\"col-md-2 text-right\">Nombre d'articles</th>",
+			"col-md-2 text-right",
+			"col-md-5",
+			"<th",
+			"<td",
+			"<t",
+			"td",
+			"Rien",
+			"compare",
+			"revisions",
+			", [\"http://code.jquery.com/jquery.min.js\"]",
+			"cheerio",
+			"jsdom",
+			"date",
+			"coutez",
+			"parsing",
+			"\"",
+			"true",
+			"hidden",
+			"aria",
+			"console",
+			"); ",
+			" revision",
+			"recuperation",
+			"d></t",
+			"parse",
+			"recuperation",
+			"articles",
+			"added",
+			"articles"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"throw new Error(err);",
+			"editing",
+			"\\t",
+			"address",
+			" />",
+			"Length",
+			"a bien",
+			"RessourceHandler($form, $request, $em, $this->get('security.context'), $this->get('validator'), $this->get('kub.notification_manager'))",
+			"kub_collaboration_projet_show",
+			"kub_collaboration_projet_create",
+			"",
+			"orphanRemoval=true",
+			"@doctrine.orm.default_entity_manager",
+			"doctrine.orm.default_entity_manager",
+			"get('@doctrine.orm.entity_manager')",
+			",",
+			"/voir",
+			"/supprimer",
+			"/editer",
+			"/ajouter",
+			"getHoraires",
+			"getRowSpan",
+			"TimeService\\TimeService",
+			"NoteBundle",
+			"",
+			"ArrayCollection",
+			"\\n",
+			"cascade={\"all\"}",
+			"fil",
+			"",
+			"Kub\\ClasseBundle\\Entity\\Niveau",
+			"KubClasseBundle:Groupe",
+			"Kub\\ClasseBundle\\Entity\\Groupe",
+			":Manage:",
+			"Manage",
+			":Manager:",
+			"getWithAll",
+			"KubUserBundle:Manage:user_edit.html.twig",
+			"\"KubUserBundle:Show:show.html.twig\"",
+			"{% extends \"KubUserBundle:Show:show.html.twig\" %}",
+			"js",
+			"</h2>",
+			"ArrayCollection",
+			":User:",
+			"User",
+			"\\Kub\\UserBundle\\",
+			":Manage:",
+			"user_list",
+			"Kub\\UserBundle\\Form\\Type\\ProfileUserFormType",
+			"$this->class",
+			"initClass",
+			"role",
+			"Kub"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 118.0
+	},
+	"output.find_results":
+	{
+		"height": 100.0
+	},
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"css",
+				"public/css/added.css"
+			],
+			[
+				"ardui",
+				"arduino.js"
+			],
+			[
+				"pack",
+				"package.json"
+			],
+			[
+				"index",
+				"public/index.html"
+			],
+			[
+				"added",
+				"public/css/added.css"
+			],
+			[
+				"",
+				"app.js"
+			],
+			[
+				"data",
+				"public/js/datas.js"
+			],
+			[
+				"html",
+				"view/index.html"
+			],
+			[
+				"inde",
+				"view/index.html"
+			],
+			[
+				"app",
+				"app.js"
+			],
+			[
+				"ser",
+				"serial.js"
+			],
+			[
+				"model",
+				"model.js"
+			],
+			[
+				"dat",
+				"public/js/datas.js"
+			],
+			[
+				"so",
+				"sockets.js"
+			],
+			[
+				"satas",
+				"public/js/datas.js"
+			],
+			[
+				"mode",
+				"model.js"
+			],
+			[
+				"eve",
+				"events.js"
+			],
+			[
+				"ap",
+				"app.js"
+			],
+			[
+				"se",
+				"serial.js"
+			],
+			[
+				"soc",
+				"sockets.js"
+			],
+			[
+				"s",
+				"serial.js"
+			],
+			[
+				"db",
+				"db.js"
+			],
+			[
+				"socket",
+				"sockets.js"
+			],
+			[
+				"evn",
+				"events.js"
+			],
+			[
+				"seria",
+				"serial.js"
+			],
+			[
+				"add",
+				"public/css/added.css"
+			],
+			[
+				"seri",
+				"serial.js"
+			],
+			[
+				"event",
+				"events.js"
+			],
+			[
+				"routes",
+				"routes/index.js"
+			],
+			[
+				"parser",
+				"public/js/parser.js"
+			],
+			[
+				"rouinde",
+				"routes/index.js"
+			],
+			[
+				"appor",
+				"models/rapport.js"
+			],
+			[
+				"mo",
+				"models/revision.js"
+			],
+			[
+				"par",
+				"parser.js"
+			],
+			[
+				"re",
+				"models/revision.js"
+			],
+			[
+				"art",
+				"models/article.js"
+			],
+			[
+				"parse",
+				"parser.js"
+			],
+			[
+				"revi",
+				"public/js/revisions.js"
+			],
+			[
+				"liste",
+				"views/list_revisions.html"
+			],
+			[
+				"route",
+				"routes.js"
+			],
+			[
+				"arti",
+				"models/article.js"
+			],
+			[
+				"modere",
+				"models/revision.js"
+			],
+			[
+				"rou",
+				"routes.js"
+			],
+			[
+				"revis",
+				"views/list_revisions.html"
+			],
+			[
+				"base",
+				"views/base.html"
+			],
+			[
+				"na",
+				"views/partials/navbar.html"
+			],
+			[
+				"jspar",
+				"public/js/parser.js"
+			],
+			[
+				"lis",
+				"views/list_revisions.html"
+			],
+			[
+				"ve",
+				"views/parse.html"
+			],
+			[
+				"bas",
+				"views/base.html"
+			],
+			[
+				"nav",
+				"views/partials/navbar.html"
+			],
+			[
+				"pa",
+				"public/js/parser.js"
+			],
+			[
+				"fs",
+				"fsmanager.js"
+			],
+			[
+				"d",
+				"models.js"
+			],
+			[
+				"pas",
+				"parser.js"
+			],
+			[
+				"bae",
+				"views/base.html"
+			],
+			[
+				"cs",
+				"public/css/additional.css"
+			],
+			[
+				"in",
+				"views/index.html"
+			],
+			[
+				"fie",
+				"form/widgets/Field.js"
+			],
+			[
+				"form",
+				"form/index.js"
+			],
+			[
+				"tr",
+				"form/traits.js"
+			],
+			[
+				"text",
+				"form/widgets/Text.js"
+			],
+			[
+				"vali",
+				"form/validators/index.js"
+			],
+			[
+				"tra",
+				"form/traits.js"
+			],
+			[
+				"la",
+				"form/views/label.html"
+			],
+			[
+				"er",
+				"form/views/errors.html"
+			],
+			[
+				"te",
+				"form/widgets/Text.js"
+			],
+			[
+				"len",
+				"form/validators/Length.js"
+			],
+			[
+				"le",
+				"form/validators/Length.js"
+			],
+			[
+				"indeh",
+				"views/index.html"
+			],
+			[
+				"labe",
+				"form/views/label.html"
+			],
+			[
+				"val",
+				"form/validators/Length.js"
+			],
+			[
+				"texth",
+				"form/views/text.html"
+			],
+			[
+				"trai",
+				"form/traits.js"
+			],
+			[
+				"inhml",
+				"views/index.html"
+			],
+			[
+				"mac",
+				"form/views/macros.html"
+			],
+			[
+				"l",
+				"form/views/label.html"
+			],
+			[
+				"tex",
+				"form/widgets/Text.js"
+			],
+			[
+				"formjs",
+				"form/index.js"
+			],
+			[
+				"tet",
+				"form/views/text.html"
+			],
+			[
+				"fi",
+				"form/widgets/Text.js"
+			],
+			[
+				"foin",
+				"form/index.js"
+			],
+			[
+				"log",
+				"views/login.html"
+			],
+			[
+				"user",
+				"lib/routing/user.js"
+			],
+			[
+				"help",
+				"lib/helpers.js"
+			],
+			[
+				"secu",
+				"lib/security.js"
+			],
+			[
+				"login",
+				"views/login.html"
+			],
+			[
+				"pr",
+				"views/user/profil.html"
+			],
+			[
+				"lo",
+				"views/login.html"
+			],
+			[
+				"rout",
+				"lib/routing/security.js"
+			],
+			[
+				"rous",
+				"lib/routing/security.js"
+			],
+			[
+				"sec",
+				"lib/security.js"
+			],
+			[
+				"routin",
+				"lib/routing/front.js"
+			],
+			[
+				"bs",
+				"views/base.html"
+			],
+			[
+				"fo",
+				"lib/routing/front.js"
+			],
+			[
+				"st",
+				"public/css/style.css"
+			],
+			[
+				"con",
+				"Controllers/HomeController.js"
+			],
+			[
+				"kerne",
+				"kernel.js"
+			],
+			[
+				"r",
+				"routing.json"
+			],
+			[
+				"cont",
+				"Controllers/HomeController.js"
+			],
+			[
+				"mod",
+				"models.js"
+			],
+			[
+				"fav",
+				"web/js/favoris.js"
+			],
+			[
+				"fao",
+				"web/sass/_favoris.scss"
+			],
+			[
+				"fa",
+				"web/js/favoris.js"
+			],
+			[
+				"main",
+				"web/sass/main.scss"
+			],
+			[
+				"cla",
+				"web/sass/_classes.scss"
+			],
+			[
+				"sync",
+				"web/js/sync.js"
+			],
+			[
+				"guide",
+				"web/js/guide.js"
+			],
+			[
+				"favoris",
+				"web/js/favoris.js"
+			],
+			[
+				"f",
+				"web/js/favoris.js"
+			],
+			[
+				"a",
+				"app.js"
+			],
+			[
+				"favo",
+				"web/js/favoris.js"
+			],
+			[
+				"sta",
+				"static_file.js"
+			],
+			[
+				"med",
+				"sass/_mediaqueries.scss"
+			],
+			[
+				"js",
+				"js/api.js"
+			],
+			[
+				"font",
+				"sass/_font.scss"
+			],
+			[
+				"cl",
+				"sass/_classes.scss"
+			],
+			[
+				"fasc",
+				"sass/_favoris.scss"
+			],
+			[
+				"sty",
+				"style.css"
+			],
+			[
+				"m",
+				"sass/_mediaqueries.scss"
+			],
+			[
+				"obj",
+				"sass/_objects.scss"
+			],
+			[
+				"colo",
+				"sass/_colorize.scss"
+			],
+			[
+				"map",
+				"sass/_map.scss"
+			],
+			[
+				"ob",
+				"sass/_objects.scss"
+			],
+			[
+				"nac",
+				"sass/_nav.scss"
+			],
+			[
+				"co",
+				"sass/_colorize.scss"
+			],
+			[
+				"color",
+				"sass/_color.scss"
+			],
+			[
+				"scss",
+				"sass/_classes.scss"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 253.0,
+	"status_bar_visible": true
+}
