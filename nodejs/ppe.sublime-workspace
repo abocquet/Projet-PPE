@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"in",
+				"introduceYourself"
+			],
+			[
+				"proto",
+				"prototype"
+			],
+			[
 				"class",
 				"className"
 			],
@@ -506,14 +514,6 @@
 			[
 				"stat",
 				"status"
-			],
-			[
-				"string",
-				"stringify"
-			],
-			[
-				"ac",
-				"activeIndex"
 			]
 		]
 	},
@@ -523,9 +523,21 @@
 	"build_system": "Packages/User/PHP-Lint.sublime-build",
 	"command_palette":
 	{
-		"height": 287.0,
+		"height": 392.0,
 		"selected_items":
 		[
+			[
+				"re",
+				"File: Rename"
+			],
+			[
+				"test",
+				"File: Open In Browser - Testing Server"
+			],
+			[
+				"open",
+				"File: Open In Browser - Testing Server"
+			],
 			[
 				"mark",
 				"Markdown Preview: Preview in Browser"
@@ -609,10 +621,6 @@
 			[
 				"del",
 				"File: Delete"
-			],
-			[
-				"re",
-				"File: Rename"
 			],
 			[
 				"TABS",
@@ -987,10 +995,6 @@
 				"Indentation: Convert to Tabs"
 			],
 			[
-				"open",
-				"File: Open In Browser - Testing Server"
-			],
-			[
 				"packe",
 				"Package Control: Remove Package"
 			],
@@ -1033,13 +1037,9 @@
 			[
 				"Snippet: ",
 				"Snippet: html"
-			],
-			[
-				"fet",
-				"Fetch: Package"
 			]
 		],
-		"width": 575.0
+		"width": 530.0
 	},
 	"console":
 	{
@@ -1056,13 +1056,16 @@
 	},
 	"file_history":
 	[
+		"/Users/adrienbocquet/Programmation/Projet-PPE/nodejs/app.js",
+		"/Users/adrienbocquet/Programmation/Projet-PPE/nodejs/public/js/main.js",
+		"/Users/adrienbocquet/Programmation/Projet-PPE/nodejs/serial.js",
+		"/Users/adrienbocquet/Programmation/Projet-PPE/nodejs/public/index.html",
+		"/Users/adrienbocquet/Downloads/323731",
+		"/Users/adrienbocquet/Programmation/Projet-PPE/nodejs/arduino.js",
+		"/Users/adrienbocquet/Desktop/mindreader",
+		"/Users/adrienbocquet/Programmation/Projet-PPE/nodejs/public/css/added.css",
 		"/Users/adrienbocquet/Programmation/Projet-PPE/README.md",
 		"/Users/adrienbocquet/Programmation/Projet-PPE/nodejs/package.json",
-		"/Users/adrienbocquet/Programmation/Projet-PPE/nodejs/public/index.html",
-		"/Users/adrienbocquet/Programmation/Projet-PPE/nodejs/public/css/added.css",
-		"/Users/adrienbocquet/Programmation/Projet-PPE/nodejs/public/js/main.js",
-		"/Users/adrienbocquet/Programmation/Projet-PPE/nodejs/app.js",
-		"/Users/adrienbocquet/Programmation/Projet-PPE/nodejs/arduino.js",
 		"/Users/adrienbocquet/Programmation/Projet-PPE/arduino/echo.ino",
 		"/Users/adrienbocquet/Programmation/NodeJS/PPE/public/js/datas.js",
 		"/Users/adrienbocquet/Programmation/NodeJS/PPE/view/index.html",
@@ -1180,10 +1183,7 @@
 		"/Users/adrienbocquet/Programmation/NodeJS/Press/Controllers/HomeController.js",
 		"/Users/adrienbocquet/Programmation/NodeJS/Press/routing.json",
 		"/Users/adrienbocquet/Programmation/NodeJS/Press/router.js",
-		"/Users/adrienbocquet/Programmation/NodeJS/router/routing.json",
-		"/Users/adrienbocquet/Programmation/NodeJS/router/router.js",
-		"/Users/adrienbocquet/Programmation/NodeJS/router/Controllers/HomeController.js",
-		"/Users/adrienbocquet/Programmation/NodeJS/router/kernel.js"
+		"/Users/adrienbocquet/Programmation/NodeJS/router/routing.json"
 	],
 	"find":
 	{
@@ -1267,6 +1267,15 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"arduino",
+			"Arduino",
+			"arduino",
+			"Arduino",
+			"md",
+			"x",
+			"stack",
+			"coms",
+			"ports",
 			"alert-",
 			"info",
 			"push",
@@ -1385,16 +1394,7 @@
 			"true",
 			"hidden",
 			"aria",
-			"console",
-			"); ",
-			" revision",
-			"recuperation",
-			"d></t",
-			"parse",
-			"recuperation",
-			"articles",
-			"added",
-			"articles"
+			"console"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1520,6 +1520,34 @@
 		"selected_items":
 		[
 			[
+				"index",
+				"public/index.html"
+			],
+			[
+				"app",
+				"app.js"
+			],
+			[
+				"ma",
+				"public/js/main.js"
+			],
+			[
+				"ar",
+				"arduino.js"
+			],
+			[
+				"less",
+				"public/css/added.css"
+			],
+			[
+				"main",
+				"public/js/main.js"
+			],
+			[
+				"inde",
+				"public/index.html"
+			],
+			[
 				"css",
 				"public/css/added.css"
 			],
@@ -1530,10 +1558,6 @@
 			[
 				"pack",
 				"package.json"
-			],
-			[
-				"index",
-				"public/index.html"
 			],
 			[
 				"added",
@@ -1550,14 +1574,6 @@
 			[
 				"html",
 				"view/index.html"
-			],
-			[
-				"inde",
-				"view/index.html"
-			],
-			[
-				"app",
-				"app.js"
 			],
 			[
 				"ser",
@@ -1936,10 +1952,6 @@
 				"web/js/favoris.js"
 			],
 			[
-				"main",
-				"web/sass/main.scss"
-			],
-			[
 				"cla",
 				"web/sass/_classes.scss"
 			],
@@ -2018,18 +2030,6 @@
 			[
 				"nac",
 				"sass/_nav.scss"
-			],
-			[
-				"co",
-				"sass/_colorize.scss"
-			],
-			[
-				"color",
-				"sass/_color.scss"
-			],
-			[
-				"scss",
-				"sass/_classes.scss"
 			]
 		],
 		"width": 0.0

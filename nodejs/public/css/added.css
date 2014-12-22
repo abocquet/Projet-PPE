@@ -4,6 +4,10 @@ body {
 	padding-bottom: 20px;
 }
 
+.container > div {
+	margin-bottom: 20px ;
+}
+
 /* Custom page footer */
 .footer {
 	padding-top: 19px;
@@ -16,7 +20,11 @@ body {
 /* Main marketing message and sign up button */
 .jumbotron {
 	text-align: center;
+	background-color: #EEE ;
 	border-bottom: 1px solid #e5e5e5;
+
+	padding: 30px ;
+	margin-top: -2px ;
 }
 
 form + .messages {
@@ -33,4 +41,17 @@ form + .messages {
 	.jumbotron {
 		border-bottom: 0;
 	}
+}
+
+select {
+	-webkit-appearance: none ;
+}
+
+.space {
+	margin-top: 40px ;
+	margin-bottom: 40px ;
+}
+
+.col-aligned {
+	padding-right: 20px ;
 }

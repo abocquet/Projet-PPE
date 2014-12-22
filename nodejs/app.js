@@ -1,10 +1,17 @@
 var express = require('express.io'),
-	Arduino = require('./arduino.js'),
+	Serial = require('./serial.js'),
 	_ = require('lodash')
 ;
 
 
-var stack = [{type:"message", content: "Hi there !"}];
+var data = {
+	serial: {},
+	messages: [],
+	moteur: {
+		gauche: {vitesse: 0, angle: 180},
+		droit: {vitesse: 0, angle: 180}
+	}
+}
 
 /*----------------------------
 
@@ -26,17 +33,34 @@ app.get('/', function(req, res){ res.sendFile('/public/index.html'); });
 ----------------------------*/
 
 app.io.route('ready', function(req){
-	req.io.emit('message', stack);
+	req.io.emit('data', data);
 });
 
-app.io.route('order', function(req){
+app.io.route('message', function(req){
 
-	// req.io.broadcast('new-instruction', req.data.instruction);
-	stack.unshift({type: 'instruction', content:  req.data.instruction})
-	app.io.broadcast('message', stack);
+	data.messages.unshift({type: 'instruction', content: req.data.instruction});
+	app.io.broadcast('data', data);
 
-	arduino.send(req.data.instruction);
+	serial.send(req.data.instruction);
+});
 
+app.io.route('data', function(req){
+
+	data = _.merge(data, req.data.data);
+	app.io.broadcast('data', data);
+
+});
+
+app.io.route('connect', function(req){
+	serial.open(req.data.port);
+});
+
+app.io.route('close', function(req){
+	serial.close();
+});
+
+app.io.route('refreshPort', function(req){
+	serial.refreshPort();	
 });
 
 /*----------------------------
@@ -45,13 +69,37 @@ app.io.route('order', function(req){
 
 ----------------------------*/
 
-var arduino = new Arduino();
+var serial = new Serial();
 
-arduino.on('message', function(message){
+serial.on('message', function(message){
 	// app.io.broadcast('message', message);
-	stack.unshift(message);
-	app.io.broadcast('message', stack);
+	data.messages.unshift(message);
+	app.io.broadcast('data', data);
 })
 
-app.listen(8000);
-arduino.open("/dev/tty.usbmodemfd121");
+serial.on('ports', function(){
+	data.serial = serial.introduceYourself();
+	app.io.broadcast('data', data);
+})
+
+serial.on('open', function(err, port){
+	if(err){
+		data.messages.unshift({type: 'error', content: "Erreur lors de la connection: " + err});
+	}
+	else {
+		data.messages.unshift({type: 'success', content: "Connection ouverte avec " + port});
+		data.serial = serial.introduceYourself();
+	}
+
+	app.io.broadcast('data', data);
+});
+
+serial.on('closed', function(){
+	data.serial = serial.introduceYourself();
+	data.messages = [{type:"message", content: "Connection fermée"}];
+
+	app.io.broadcast('data', data);	
+})
+
+app.listen(8080);
+serial.open("/dev/cu.usbmodemfa131");

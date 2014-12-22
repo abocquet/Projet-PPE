@@ -1,22 +1,41 @@
-const int ledPin = 11;
+#include <string.h>
+#define MAX_ORDER_LENGTH 50
+
+const int motor_g = 6 ;
+const int motor_d = 5 ;
+
+double speed_g = 50 ;
+double speed_d = 50 ;
 
 void setup() {
-  pinMode(ledPin, OUTPUT);
+  pinMode(motor_g, OUTPUT);
+  pinMode(motor_d, OUTPUT);
   Serial.begin(9600);
   Serial.println("READY");
 }
 
 void loop() {
 
-  if(Serial.available())
+  if(Serial.available() > 0)
   {
-    while (Serial.available()) {
-      digitalWrite(ledPin, HIGH);
-      Serial.write(Serial.read());
+    double tmp = Serial.parseInt();
+
+    while(Serial.available()){ 
+      Serial.read(); 
     }
-    Serial.write('\n');
+
+    if(tmp <= 100 && tmp >= 0){
+      speed_g = tmp * 2.55 ;
+      speed_d = tmp*2.55;
+      Serial.println(speed_g);
+    }
+
+    analogWrite(motor_g, speed_g);
+    analogWrite(motor_d, speed_d);
   }
 
-  delay(100);
-  digitalWrite(ledPin, LOW);
 }
+
+
+
+
