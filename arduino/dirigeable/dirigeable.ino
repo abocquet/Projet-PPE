@@ -13,8 +13,8 @@ Moteur moteur_d ;
 
 char ordre[10] ;
 
-void parseMoteur(Moteur* moteur, char** pointer);
-void parseOrder(char **pointer);
+void parseNextInt(int* value, char** it);
+void parseNextString(char* string, char **it);
 
 void setup() {
 
@@ -36,9 +36,13 @@ void loop() {
     Serial.readBytes(received, BUFFER_LENGTH);
     char* current = received ;
 
-    parseOrder(&current);     
-    parseMoteur(&moteur_g, &current);
-    parseMoteur(&moteur_d, &current);
+    parseNextString(ordre, &current);   
+    
+    parseNextInt(&(moteur_g.vitesse), &current);
+    parseNextInt(&(moteur_g.angle), &current);
+    
+    parseNextInt(&(moteur_d.vitesse), &current);
+    parseNextInt(&(moteur_d.angle), &current);
 
     Serial.print("Ok, a gauche, vitesse de ");
     Serial.print(moteur_g.vitesse);
@@ -57,39 +61,28 @@ void loop() {
   }
 }
 
-void parseMoteur(Moteur* moteur, char** pointer){
+void parseNextInt(int* value, char** it){
 
-  moteur->angle = 0 ;
-  moteur->vitesse = 0 ;
+  *value = 0 ;
 
-  for(; **pointer != ';' ; *pointer+=1){
-    moteur->vitesse *= 10 ;
-    moteur->vitesse += **pointer - 48;
+  for(; **it != ';' ; *it+=1){
+    *value *= 10 ;
+    *value += **it - 48;
   }
 
-  *pointer += 1 ;
-
-  for(; **pointer != ';' ; *pointer+=1){
-    moteur->angle *= 10 ;
-    moteur->angle += **pointer - 48;
-  }
-
-  moteur->vitesse *= 2.55 ;
-
-  //on se place sur le chiffre suivante
-  *pointer += 1 ;
+  *it += 1 ;
 }
 
-void parseOrder(char **pointer){
+void parseNextString(char* string, char **it){
 
   int i = 0 ;
 
-  for(; **pointer != ':' ; i++, *pointer+=1){
-    ordre[i] = **pointer;
+  for(; **it != ':' ; i++, *it+=1){
+    string[i] = **it;
   }
-  ordre[i] = '\0';
+  string[i] = '\0';
 
-  //On se place sur le premier chiffre qui vient
-  *pointer += 1 ;
+  //on quitte le délimiteur
+  *it += 1 ;
 }
 
