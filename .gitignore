@@ -1,2 +1,17 @@
 node_modules/
 parse-test.xcodeproj/
+Matrices.xcodeproj/
+
+*.pbxproj
+
+*.xcworkspacedata
+
+*.xccheckout
+
+*.xcscheme
+
+*.xcuserstate
+
+*.xcworkspacedata
+
+*.pbxproj

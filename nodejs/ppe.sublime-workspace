@@ -4,6 +4,50 @@
 		"selected_items":
 		[
 			[
+				"po",
+				"prototype"
+			],
+			[
+				"cl",
+				"clearUntil"
+			],
+			[
+				"clear",
+				"clearStack"
+			],
+			[
+				"clea",
+				"$sceDelegate	AngularJS"
+			],
+			[
+				"ang",
+				"angle"
+			],
+			[
+				"$se",
+				"$scope"
+			],
+			[
+				"or",
+				"order"
+			],
+			[
+				"send",
+				"sendOrder"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"conn",
+				"connection_success"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
 				"in",
 				"introduceYourself"
 			],
@@ -44,10 +88,6 @@
 				"temperature"
 			],
 			[
-				"conn",
-				"connection"
-			],
-			[
 				"tim",
 				"time"
 			],
@@ -70,10 +110,6 @@
 			[
 				"cons",
 				"console"
-			],
-			[
-				"clear",
-				"clearInterval();"
 			],
 			[
 				"sock",
@@ -316,10 +352,6 @@
 				"object"
 			],
 			[
-				"cl",
-				"classNames"
-			],
-			[
 				"form",
 				"form_widget"
 			],
@@ -482,38 +514,6 @@
 			[
 				"call",
 				"callback"
-			],
-			[
-				"utili",
-				"utilisateur"
-			],
-			[
-				"connec",
-				"connected"
-			],
-			[
-				"conec",
-				"connection"
-			],
-			[
-				"so",
-				"socket"
-			],
-			[
-				"mon",
-				"mongoose"
-			],
-			[
-				"sec",
-				"security"
-			],
-			[
-				"mongo",
-				"mongodb"
-			],
-			[
-				"stat",
-				"status"
 			]
 		]
 	},
@@ -523,9 +523,13 @@
 	"build_system": "Packages/User/PHP-Lint.sublime-build",
 	"command_palette":
 	{
-		"height": 392.0,
+		"height": 327.0,
 		"selected_items":
 		[
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
 			[
 				"re",
 				"File: Rename"
@@ -657,10 +661,6 @@
 			[
 				"npm",
 				"Nodejs::NPM::Install"
-			],
-			[
-				"inst",
-				"Package Control: Install Package"
 			],
 			[
 				"han",
@@ -1056,14 +1056,16 @@
 	},
 	"file_history":
 	[
-		"/Users/adrienbocquet/Programmation/Projet-PPE/nodejs/app.js",
-		"/Users/adrienbocquet/Programmation/Projet-PPE/nodejs/public/js/main.js",
 		"/Users/adrienbocquet/Programmation/Projet-PPE/nodejs/serial.js",
+		"/Users/adrienbocquet/Programmation/Projet-PPE/nodejs/app.js",
 		"/Users/adrienbocquet/Programmation/Projet-PPE/nodejs/public/index.html",
+		"/Users/adrienbocquet/Programmation/Projet-PPE/nodejs/public/css/added.css",
+		"/Users/adrienbocquet/Programmation/Projet-PPE/nodejs/public/js/main.js",
+		"/Users/adrienbocquet/Programmation/Processing/blob_tbi/README.md",
+		"/Users/adrienbocquet/Programmation/Projet-PPE/nodejs/ppe.sublime-project",
 		"/Users/adrienbocquet/Downloads/323731",
 		"/Users/adrienbocquet/Programmation/Projet-PPE/nodejs/arduino.js",
 		"/Users/adrienbocquet/Desktop/mindreader",
-		"/Users/adrienbocquet/Programmation/Projet-PPE/nodejs/public/css/added.css",
 		"/Users/adrienbocquet/Programmation/Projet-PPE/README.md",
 		"/Users/adrienbocquet/Programmation/Projet-PPE/nodejs/package.json",
 		"/Users/adrienbocquet/Programmation/Projet-PPE/arduino/echo.ino",
@@ -1181,9 +1183,7 @@
 		"/Users/adrienbocquet/Programmation/NodeJS/YannBox/yannbox.sublime-project",
 		"/Users/adrienbocquet/Programmation/NodeJS/Press/kernel.js",
 		"/Users/adrienbocquet/Programmation/NodeJS/Press/Controllers/HomeController.js",
-		"/Users/adrienbocquet/Programmation/NodeJS/Press/routing.json",
-		"/Users/adrienbocquet/Programmation/NodeJS/Press/router.js",
-		"/Users/adrienbocquet/Programmation/NodeJS/router/routing.json"
+		"/Users/adrienbocquet/Programmation/NodeJS/Press/routing.json"
 	],
 	"find":
 	{
@@ -1267,6 +1267,32 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"data",
+			"sm-10",
+			"sm-2",
+			"knob",
+			"moteur",
+			"vitesse",
+			"gauche",
+			"text",
+			"info",
+			"success",
+			"control",
+			"Envoyer",
+			"console",
+			"moteur",
+			"$scope",
+			"error",
+			"gauche",
+			"vitesse",
+			"vitess",
+			"moteur",
+			"vitesse",
+			"gauche",
+			"input",
+			"gauche",
+			"moteur_gauche_vitesse",
+			"input",
 			"arduino",
 			"Arduino",
 			"arduino",
@@ -1368,33 +1394,7 @@
 			"      ",
 			"     ",
 			"    ",
-			"   ",
-			"  ",
-			", ",
-			"Revision",
-			"String",
-			"right",
-			"<th class=\"col-md-2 text-right\">Nombre d'articles</th>",
-			"col-md-2 text-right",
-			"col-md-5",
-			"<th",
-			"<td",
-			"<t",
-			"td",
-			"Rien",
-			"compare",
-			"revisions",
-			", [\"http://code.jquery.com/jquery.min.js\"]",
-			"cheerio",
-			"jsdom",
-			"date",
-			"coutez",
-			"parsing",
-			"\"",
-			"true",
-			"hidden",
-			"aria",
-			"console"
+			"   "
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1520,12 +1520,36 @@
 		"selected_items":
 		[
 			[
-				"index",
-				"public/index.html"
+				"ser",
+				"serial.js"
+			],
+			[
+				"seria",
+				"serial.js"
+			],
+			[
+				"seri",
+				"serial.js"
 			],
 			[
 				"app",
 				"app.js"
+			],
+			[
+				"main",
+				"public/js/main.js"
+			],
+			[
+				"css",
+				"public/css/added.css"
+			],
+			[
+				"inde",
+				"public/index.html"
+			],
+			[
+				"index",
+				"public/index.html"
 			],
 			[
 				"ma",
@@ -1537,18 +1561,6 @@
 			],
 			[
 				"less",
-				"public/css/added.css"
-			],
-			[
-				"main",
-				"public/js/main.js"
-			],
-			[
-				"inde",
-				"public/index.html"
-			],
-			[
-				"css",
 				"public/css/added.css"
 			],
 			[
@@ -1574,10 +1586,6 @@
 			[
 				"html",
 				"view/index.html"
-			],
-			[
-				"ser",
-				"serial.js"
 			],
 			[
 				"model",
@@ -1632,16 +1640,8 @@
 				"events.js"
 			],
 			[
-				"seria",
-				"serial.js"
-			],
-			[
 				"add",
 				"public/css/added.css"
-			],
-			[
-				"seri",
-				"serial.js"
 			],
 			[
 				"event",
