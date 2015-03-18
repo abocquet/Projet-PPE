@@ -1,23 +1,9 @@
 //
-//  main.c
+//  Matrix.cpp
 //  Matrices
 //
-//  Created by Adrien Bocquet on 14/03/2015.
-//  Copyright (c) 2015 Adrien Bocquet. All rights reserved.
-//
 
-#include <stdlib.h>
-#include <stdio.h>
-
-typedef struct Matrix Matrix;
-struct Matrix {
-	
-	int width ;
-	int height ;
-	
-	double **cells ;
-
-};
+#include "Matrix.h"
 
 Matrix* new_matrix(unsigned int width, unsigned int height)
 {
@@ -25,24 +11,24 @@ Matrix* new_matrix(unsigned int width, unsigned int height)
 		exit(0);
 	}
 	
-	Matrix* matrix  = malloc(sizeof(Matrix));
+	Matrix* matrix  = (Matrix*)malloc(sizeof(Matrix));
 	
 	matrix->width = width ;
 	matrix->height = height ;
-
+	
 	matrix->cells = malloc(width * sizeof(double*));
-
+	
 	for (int i = 0; i < width; i++) {
-  		matrix->cells[i] = malloc(height * sizeof(double));
+		matrix->cells[i] = malloc(height * sizeof(double));
 	}
-
+	
 	
 	return matrix ;
 };
 
 
 Matrix* sum_matrix(Matrix* m1, Matrix* m2){
-
+	
 	if(m1->width != m2->width || m1->height != m2->height){
 		exit(0);
 	}
@@ -83,7 +69,7 @@ void del_matrix(Matrix* matrix)
 {
 	
 	for (int i = 0; i < matrix->width; i++) {
-	  free(matrix->cells[i]);
+		free(matrix->cells[i]);
 	}
 	
 	free(matrix->cells);
@@ -106,30 +92,4 @@ void print_matrix(Matrix* matrix)
 void set_matrix(Matrix *matrix, int x, int y, double val)
 {
 	matrix->cells[x][y] = val ;
-}
-
-int main(int argc, const char * argv[]) {
-	
-	Matrix* mat1 = new_matrix(3, 3);
-	Matrix* mat2 = new_matrix(3, 3);
-	
-	int c = 1 ;
-	for(int i = 0 ; i < mat1->height ; i++){
-		for(int j = 0 ; j < mat2->width ; j++){
-			set_matrix(mat2, i, j, (double)c);
-			c++ ;
-		}
-	}
-	
-	Matrix* sum = product_matrix(mat1, mat2);
-	
-	print_matrix(mat1);
-	print_matrix(mat2);
-	print_matrix(sum);
-	
-	del_matrix(mat1);
-	del_matrix(mat2);
-	del_matrix(sum);
-	
-    return 0;
 }
