@@ -7,6 +7,11 @@ app
 
 	io.emit('ready');
 
+	$scope.moteur = {
+		vitesse: 0,
+		sens: 0
+	};
+
 	io.on('data', function(data){
 
 		console.log(JSON.stringify(data));
@@ -38,16 +43,10 @@ app
 
 		var order = "motors:";
 
-		order += $scope.data.moteur.gauche.vitesse ;
+		order += $scope.data.moteur.vitesse ;
 		order += ';' ;
 
-		order += $scope.data.moteur.gauche.angle ;
-		order += ';' ;
-
-		order += $scope.data.moteur.droit.vitesse ;
-		order += ';' ;
-
-		order += $scope.data.moteur.droit.angle ;
+		order += $scope.data.moteur.sens ;
 		order += ';' ;
 
 		$scope.order = order ;

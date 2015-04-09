@@ -34,44 +34,11 @@
 				
 				<form ng-submit="setMotors()" class="space">
 
-					<div class="col-md-6">
-						<h3>Moteur Gauche</h3>
-						<div class="form-horizontal">
-							<div class="form-group">
-								<label for="moteur_gauche_vitesse" class="col-sm-3">Vitesse: {{ data.moteur.gauche.vitesse }}</label>
-								<div class="col-sm-9">
-									<input ng-model="data.moteur.gauche.vitesse" id="moteur_gauche_vitesse" type="range" min="0" max="100" class="form-control">
-								</div>
-							</div>
-						</div>
-						<div class="form-horizontal">
-							<div class="form-group">
-								<label for="moteur_gauche_angle" class="col-sm-3">Angle: {{ data.moteur.gauche.angle }}</label>
-								<div class="col-sm-9">
-									<input ng-model="data.moteur.gauche.angle" id="moteur_gauche_angle" type="range" min="0" max="360" class="form-control">
-								</div>
-							</div>
-						</div>
-					</div>
-
-					<div class="col-md-6">
-						<h3>Moteur Droit</h3>
-						<div class="form-horizontal">
-							<div class="form-group">
-								<label for="moteur_droit_vitesse" class="col-sm-3">Vitesse: {{ data.moteur.droit.vitesse }}</label>
-								<div class="col-sm-9">
-									<input ng-model="data.moteur.droit.vitesse" id="moteur_droit_vitesse" type="range" min="0" max="100" class="form-control">
-								</div>
-							</div>
-						</div>
-						<div class="form-horizontal">
-							<div class="form-group">
-								<label for="moteur_droit_angle" class="col-sm-3">Angle: {{ data.moteur.droit.angle }}</label>
-								<div class="col-sm-9">
-									<input ng-model="data.moteur.droit.angle" id="moteur_droit_angle" type="range" min="0" max="360" class="form-control">
-								</div>
-							</div>
-						</div>
+					<div>
+						<label for="moteur_vitesse">Vitesse du moteur: {{ data.moteur.vitesse }}</label>
+						<input ng-model="data.moteur.vitesse" id="moteur_vitesse" type="number" class="form-control" min="0" max="100" value="50">
+						<br><br>
+						<input type="button" class="btn btn-primary" value="Changer le sens ({{data.moteur.sens}})"/>
 					</div>
 
 					<div class="text-right col-aligned">
