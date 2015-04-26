@@ -9,12 +9,19 @@ app
 
 	$scope.moteur = {
 		vitesse: 0,
-		sens: 0
+		sens: 0,
+		k: 0.1,
+		couple_vide: 0.2,
+		resistance: 5,
+		bloque: 0,
+		tension_max: 12
 	};
+
+
 
 	io.on('data', function(data){
 
-		console.log(JSON.stringify(data));
+		//console.log(JSON.stringify(data));
 		$scope.data = data ;
 		$scope.flash = "" ;
 		$scope.$apply();
@@ -22,6 +29,11 @@ app
 
 
 	$scope.clearUntil = 0 ;
+
+	$scope.maxVitesse = function(){
+		$scope.moteur.vitesse_max = $scope.moteur.tension_max / $scope.moteur.k - $scope.moteur.resistance * $scope.moteur.couple_vide ;
+	};
+	$scope.maxVitesse();
 
 	$scope.sendOrder = function(){
 
@@ -39,20 +51,33 @@ app
 		io.emit('data', {data: $scope.data});
 	}
 
-	$scope.setMotors = function(){
-
-		var order = "motors:";
-
-		order += $scope.data.moteur.vitesse ;
+	$scope.setMotor = function(){
+		
+		console.log($scope.moteur.vitesse, $scope.moteur.vitesse_max);
+		var order = parseInt($scope.moteur.vitesse / $scope.moteur.vitesse_max * 255) ;
 		order += ';' ;
 
-		order += $scope.data.moteur.sens ;
+		order += $scope.moteur.sens ;
+		order += ';' ;
+
+		order += $scope.moteur.bloque == 1 ? 1 : 0 ;
 		order += ';' ;
 
 		$scope.order = order ;
 
 		$scope.sendData();
 		$scope.sendOrder();
+	}
+
+	$scope.bloque = function(){
+		$scope.moteur.bloque = 1 ;
+		$scope.setMotor();
+		$scope.moteur.bloque = 0 ;
+	}
+
+	$scope.changeSens = function(){
+		$scope.moteur.sens = ($scope.moteur.sens + 1) % 2 ;
+		$scope.setMotor();
 	}
 
 	$scope.connect = function(){
@@ -104,5 +129,19 @@ app
 
 }])
 
+.filter('numberFixedLen', function () {
+	return function (n, len) {
+		var num = parseInt(n, 10);
+		len = parseInt(len, 10);
+		if (isNaN(num) || isNaN(len)) {
+			return n;
+		}
+		num = ''+num;
+		while (num.length < len) {
+			num = '0'+num;
+		}
+		return num;
+	};
+});
 
 ;

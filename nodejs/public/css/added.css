@@ -4,6 +4,10 @@ body {
 	padding-bottom: 20px;
 }
 
+label {
+	margin-right: 10px ;
+}
+
 .container > div {
 	margin-bottom: 20px ;
 }
@@ -50,6 +54,7 @@ select {
 .space {
 	margin-top: 40px ;
 	margin-bottom: 40px ;
+	clear: both;
 }
 
 .col-aligned {

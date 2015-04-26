@@ -523,9 +523,13 @@
 	"build_system": "Packages/User/PHP-Lint.sublime-build",
 	"command_palette":
 	{
-		"height": 327.0,
+		"height": 392.0,
 		"selected_items":
 		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
 			[
 				"inst",
 				"Package Control: Install Package"
@@ -673,10 +677,6 @@
 			[
 				"mus",
 				"Set Syntax: HTML with mustaches"
-			],
-			[
-				"install",
-				"Package Control: Install Package"
 			],
 			[
 				"edit",
@@ -1039,7 +1039,7 @@
 				"Snippet: html"
 			]
 		],
-		"width": 530.0
+		"width": 575.0
 	},
 	"console":
 	{
@@ -1056,11 +1056,12 @@
 	},
 	"file_history":
 	[
-		"/Users/adrienbocquet/Programmation/Projet-PPE/nodejs/serial.js",
-		"/Users/adrienbocquet/Programmation/Projet-PPE/nodejs/app.js",
-		"/Users/adrienbocquet/Programmation/Projet-PPE/nodejs/public/index.html",
 		"/Users/adrienbocquet/Programmation/Projet-PPE/nodejs/public/css/added.css",
+		"/Users/adrienbocquet/Programmation/Projet-PPE/nodejs/app.js",
 		"/Users/adrienbocquet/Programmation/Projet-PPE/nodejs/public/js/main.js",
+		"/Users/adrienbocquet/Programmation/Projet-PPE/nodejs/public/index.html",
+		"/Users/adrienbocquet/Downloads/null (null) - Français.srt",
+		"/Users/adrienbocquet/Programmation/Projet-PPE/nodejs/serial.js",
 		"/Users/adrienbocquet/Programmation/Processing/blob_tbi/README.md",
 		"/Users/adrienbocquet/Programmation/Projet-PPE/nodejs/ppe.sublime-project",
 		"/Users/adrienbocquet/Downloads/323731",
@@ -1182,8 +1183,7 @@
 		"/Users/adrienbocquet/Programmation/NodeJS/YannBox/views/index.handlebars",
 		"/Users/adrienbocquet/Programmation/NodeJS/YannBox/yannbox.sublime-project",
 		"/Users/adrienbocquet/Programmation/NodeJS/Press/kernel.js",
-		"/Users/adrienbocquet/Programmation/NodeJS/Press/Controllers/HomeController.js",
-		"/Users/adrienbocquet/Programmation/NodeJS/Press/routing.json"
+		"/Users/adrienbocquet/Programmation/NodeJS/Press/Controllers/HomeController.js"
 	],
 	"find":
 	{
@@ -1267,6 +1267,10 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"angle",
+			";\n",
+			"gauche",
+			".gauche",
 			"data",
 			"sm-10",
 			"sm-2",
@@ -1390,11 +1394,7 @@
 			"lodash",
 			"require",
 			"        ",
-			"       ",
-			"      ",
-			"     ",
-			"    ",
-			"   "
+			"       "
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1456,7 +1456,7 @@
 			"role",
 			"Kub"
 		],
-		"reverse": false,
+		"reverse": true,
 		"show_context": true,
 		"use_buffer2": true,
 		"whole_word": false,
@@ -1520,6 +1520,26 @@
 		"selected_items":
 		[
 			[
+				"cas",
+				"public/css/added.css"
+			],
+			[
+				"app",
+				"app.js"
+			],
+			[
+				"main",
+				"public/js/main.js"
+			],
+			[
+				"js",
+				"public/js/main.js"
+			],
+			[
+				"index",
+				"public/index.html"
+			],
+			[
 				"ser",
 				"serial.js"
 			],
@@ -1532,23 +1552,11 @@
 				"serial.js"
 			],
 			[
-				"app",
-				"app.js"
-			],
-			[
-				"main",
-				"public/js/main.js"
-			],
-			[
 				"css",
 				"public/css/added.css"
 			],
 			[
 				"inde",
-				"public/index.html"
-			],
-			[
-				"index",
 				"public/index.html"
 			],
 			[
@@ -1988,10 +1996,6 @@
 				"sass/_mediaqueries.scss"
 			],
 			[
-				"js",
-				"js/api.js"
-			],
-			[
 				"font",
 				"sass/_font.scss"
 			],
@@ -2026,10 +2030,6 @@
 			[
 				"ob",
 				"sass/_objects.scss"
-			],
-			[
-				"nac",
-				"sass/_nav.scss"
 			]
 		],
 		"width": 0.0

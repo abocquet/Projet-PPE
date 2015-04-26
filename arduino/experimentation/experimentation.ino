@@ -38,8 +38,11 @@ void loop() {
     Serial.print("Ok, vitesse de ");
     Serial.print(vitesse);
     Serial.print("/255 et sens ");
-    Serial.println(sens);
-
+    Serial.print(sens);
+    Serial.print(" (blocage: ");
+    Serial.print(boucle);
+    Serial.print(")");
+    Serial.print('\n');
 
     analogWrite(VITESSE_PIN, vitesse);
     digitalWrite(SENS_PIN, sens);
@@ -49,12 +52,19 @@ void loop() {
   delay(100);
   digitalWrite(WATCHDOG_PIN, false);
 
-  while(boucle == 1){
-    digitalWrite(WATCHDOG_PIN, true);
-    delay(1000);
-    digitalWrite(WATCHDOG_PIN, false);
-    delay(1000);
+  if(boucle == 1) {
+    Serial.println("Good bye ...");
+    delay(15000); //Simule un blocage du controleur
+    Serial.println("... here I am !");
+    
+    boucle = 0 ;
   }
+
+  /*while(boucle == 1){
+    //On ne fait plus rien, la carte est bloquee
+    // (simulation de disfonctionnement)
+  }*/
+
 }
 
 void parseNextInt(int* value, char** it){
