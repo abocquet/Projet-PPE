@@ -11,7 +11,7 @@ app
 		vitesse: 0,
 		sens: 0,
 		k: 0.053591,
-		couple_vide: 0.198,
+		intensite: 0.33,
 		resistance: 1.8,
 		bloque: 0,
 		tension_max: 12
@@ -31,7 +31,7 @@ app
 	$scope.clearUntil = 0 ;
 
 	$scope.maxVitesse = function(){
-		$scope.moteur.vitesse_max = parseInt(($scope.moteur.tension_max / $scope.moteur.k - $scope.moteur.resistance * $scope.moteur.couple_vide) * 30 / Math.PI) ;//En tour/minute
+		$scope.moteur.vitesse_max = parseInt(($scope.moteur.tension_max / $scope.moteur.k - $scope.moteur.resistance * $scope.moteur.intensite * $scope.moteur.k) * 30 / Math.PI) ;//En tour/minute
 	};
 	$scope.maxVitesse();
 
