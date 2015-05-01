@@ -1,7 +1,7 @@
 #define BUFFER_LENGTH 25
 #define VITESSE_PIN 3
 #define SENS_PIN 2
-#define WATCHDOG_PIN 15
+#define WATCHDOG_PIN 8
 
 char ordre[10] ;
 
@@ -44,13 +44,16 @@ void loop() {
     Serial.print(")");
     Serial.print('\n');
 
+    analogWrite(VITESSE_PIN, 0);
+    delay(100);
+
     analogWrite(VITESSE_PIN, vitesse);
-    digitalWrite(SENS_PIN, sens);
+    digitalWrite(SENS_PIN, sens == 1 ? HIGH : LOW);
   }
 
-  digitalWrite(WATCHDOG_PIN, true);
+  digitalWrite(WATCHDOG_PIN, HIGH);
   delay(100);
-  digitalWrite(WATCHDOG_PIN, false);
+  digitalWrite(WATCHDOG_PIN, LOW);
 
   if(boucle == 1) {
     Serial.println("Good bye ...");

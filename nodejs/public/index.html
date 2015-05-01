@@ -43,10 +43,10 @@
 
 					<div class="clearfix"></div>
 
-					<div class="space text-center">
+					<div class="space text-center ">
 						<div class="col-md-3 form-group"><button type="button" ng-click="changeSens()" class="btn btn-default">Changer le sens</button></div>
 						
-						<p class="col-md-3 form-group">
+						<p class="col-md-3 form-group ">
 							<label for="vitesse">Vitesse du moteur : </label>
 							<input class="form-control" type="range" min="0" max="{{moteur.vitesse_max}}" id="vitesse" ng-model="moteur.vitesse" ng-mouseup="setMotor()"> <span>{{ moteur.vitesse }} / {{ moteur.vitesse_max }} </span>
 						</p>
@@ -59,7 +59,7 @@
 
 				</form>		
 
-				<div class="clearfix"></div>		
+				<div class="clearfi space"></div>		
 
 				<form ng-submit="sendOrder()">
 					<div class="input-group">
@@ -98,7 +98,7 @@
 			</div>
 
 			<div class="messages">
-					<p ng-repeat="message in data.messages | limitTo: (data.messages.length - clearUntil)" class="{{alertType(message)}}">{{ message.content }}</p>
+					<p ng-repeat="message in data.messages | limitTo: (data.messages.length - clearUntil)" class="{{alertType(message)}}">{{ message.content  }}</p>
 				</div>
 
 			<div class="footer">
