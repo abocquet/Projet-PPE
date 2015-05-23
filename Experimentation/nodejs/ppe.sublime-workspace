@@ -4,6 +4,26 @@
 		"selected_items":
 		[
 			[
+				"m",
+				"moteur"
+			],
+			[
+				"max",
+				"maxVitesse"
+			],
+			[
+				"cou",
+				"couple_vide"
+			],
+			[
+				"re",
+				"resistance"
+			],
+			[
+				"vitess",
+				"vitesse_max"
+			],
+			[
 				"po",
 				"prototype"
 			],
@@ -66,10 +86,6 @@
 			[
 				"Main",
 				"MainController"
-			],
-			[
-				"re",
-				"return"
 			],
 			[
 				"data",
@@ -368,10 +384,6 @@
 				"checkAuth"
 			],
 			[
-				"m",
-				"module"
-			],
-			[
 				"T",
 				"TokenSchema"
 			],
@@ -502,18 +514,6 @@
 			[
 				"ed",
 				"editing"
-			],
-			[
-				"mn",
-				"manager"
-			],
-			[
-				"edi",
-				"editFav"
-			],
-			[
-				"call",
-				"callback"
 			]
 		]
 	},
@@ -1056,12 +1056,12 @@
 	},
 	"file_history":
 	[
+		"/Users/adrienbocquet/Programmation/Projet-PPE/nodejs/serial.js",
 		"/Users/adrienbocquet/Programmation/Projet-PPE/nodejs/public/css/added.css",
-		"/Users/adrienbocquet/Programmation/Projet-PPE/nodejs/app.js",
 		"/Users/adrienbocquet/Programmation/Projet-PPE/nodejs/public/js/main.js",
 		"/Users/adrienbocquet/Programmation/Projet-PPE/nodejs/public/index.html",
+		"/Users/adrienbocquet/Programmation/Projet-PPE/nodejs/app.js",
 		"/Users/adrienbocquet/Downloads/null (null) - Français.srt",
-		"/Users/adrienbocquet/Programmation/Projet-PPE/nodejs/serial.js",
 		"/Users/adrienbocquet/Programmation/Processing/blob_tbi/README.md",
 		"/Users/adrienbocquet/Programmation/Projet-PPE/nodejs/ppe.sublime-project",
 		"/Users/adrienbocquet/Downloads/323731",
@@ -1267,6 +1267,38 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"couple_vide",
+			"$scope.data.moteur",
+			"console",
+			"sens",
+			"bloque",
+			"12",
+			"sendOrder",
+			"setMotor",
+			"setMotors",
+			"scope",
+			"$scope",
+			"model",
+			"4",
+			"						<",
+			"text",
+			"control",
+			"form",
+			"model",
+			"couple_vide",
+			"sens",
+			",\n",
+			"div",
+			"space",
+			"input",
+			"Vitesse",
+			"2",
+			"resistante",
+			"form",
+			"resistante",
+			"id",
+			"3",
+			"1",
 			"angle",
 			";\n",
 			"gauche",
@@ -1362,39 +1394,7 @@
 			"1009",
 			"1023",
 			"p",
-			"mongoose",
-			"visiteurs",
-			"rapports",
-			"hasOne",
-			"createdAt",
-			"er",
-			"revision",
-			"revisions",
-			"User",
-			"Project",
-			"Article",
-			"nota",
-			"date",
-			"content",
-			"request",
-			"checksum",
-			"request",
-			"nme",
-			"that",
-			"nb_article",
-			"nb_articles",
-			"Revision",
-			"mongoose",
-			"createdAt",
-			"  ",
-			"User",
-			"    ",
-			"   ",
-			"  ",
-			"lodash",
-			"require",
-			"        ",
-			"       "
+			"mongoose"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1402,6 +1402,7 @@
 		"regex": false,
 		"replace_history":
 		[
+			"$scope.moteur",
 			"throw new Error(err);",
 			"editing",
 			"\\t",
@@ -1520,16 +1521,28 @@
 		"selected_items":
 		[
 			[
+				"ser",
+				"serial.js"
+			],
+			[
+				"css",
+				"public/css/added.css"
+			],
+			[
+				"inde",
+				"public/index.html"
+			],
+			[
+				"main",
+				"public/js/main.js"
+			],
+			[
 				"cas",
 				"public/css/added.css"
 			],
 			[
 				"app",
 				"app.js"
-			],
-			[
-				"main",
-				"public/js/main.js"
 			],
 			[
 				"js",
@@ -1540,24 +1553,12 @@
 				"public/index.html"
 			],
 			[
-				"ser",
-				"serial.js"
-			],
-			[
 				"seria",
 				"serial.js"
 			],
 			[
 				"seri",
 				"serial.js"
-			],
-			[
-				"css",
-				"public/css/added.css"
-			],
-			[
-				"inde",
-				"public/index.html"
 			],
 			[
 				"ma",

@@ -44,12 +44,14 @@ void draw() {
   float angle = degrees((float)Math.atan(tr[0]/tr[1]));
   double distance_to_target = Math.sqrt(Math.pow(tr[0], 2) + Math.pow(tr[1], 2));
 
-  if (close(angle, 0, 2) && tr[1] > 0 && !close(distance_to_target, 0, .2)) {
-    avancer = true ;
-  } else if (tr[0] > 0) {
-    tourner_gauche = true ;
-  } else if (tr[0] < 0) {
-    tourner_droite = true ;
+  if(distance_to_target > 10){
+    if (close(angle, 0, 2) && tr[1] > 0) {
+      avancer = true ;
+    } else if (tr[0] > 0) {
+      tourner_gauche = true ;
+    } else if (tr[0] < 0) {
+      tourner_droite = true ;
+    }
   }
   
   adapter_propulsion(avancer, tourner_gauche, tourner_droite);
@@ -63,7 +65,7 @@ boolean close(double val, double ref, double marge) {
 // pont entre le pilote et la simulation de position
 void adapter_propulsion(boolean avancer, boolean tourner_gauche, boolean tourner_droite) {
 
-  d[0]=.0 ;
+  d[0]=.0;
   d[1]=.0;
 
   if (avancer) {
