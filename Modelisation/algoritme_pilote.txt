@@ -21,8 +21,10 @@ REPETER
 	∆t := current_time() - last_time
 	last_time := current_time()
 
-	vitesse := vitesse + acceleration.∆t
-	deplacement := 1/2 . acceleration . ∆t^2 + vitesse . ∆t
+	v0 := vitesse 
+
+	vitesse := acceleration.∆t + v0
+	deplacement := 1/2 . acceleration . ∆t^2 + v0 . ∆t
 
 	// on situe le déplacement du repère du dirigeable au repère de référence
 	position := { cos(angle_nord) -sin(angle_nord)  0 } x { x_deplacement } + position 
@@ -31,9 +33,9 @@ REPETER
 
 
 	// la position de la destination dans le repere du ballon
-	dest := { cos(angle_nord)  sin(angle_nord), 0 } x { x_destination } 
-			{ -sin(angle_nord) cos(angle_nord), 0 }   { y_destination }
-			{ 0 				0				1 }   { z_destination }
+	dest := { cos(angle_nord)  sin(angle_nord), 0 } x { x_destination - x_position } 
+			{ -sin(angle_nord) cos(angle_nord), 0 }   { y_destination - y_position }
+			{ 0 					0 		    1 }   { z_destination - z_position }
 
 	avancer := faux
 	tourner := 0 // 1: tourner à droite ; -1: tourner à gauche
@@ -41,11 +43,11 @@ REPETER
 	angle_destination := arctan(dest.x / dest.y)
 	distance_destination := racine(dest.x ^ 2 + dest.y ^ 2)
 
-	
+
 	//Gestion de la trajectoire dans le plan
 	SI(distance_destination > 0.5)
 	|	ALORS
-	|	SI(dest.y > 0 ET angle_destination < π / 16)
+	|	SI(dest.y > 0 ET angle_destination ENTRE ( -π/16 et π/16))
 	|	|	ALORS
 	|	|	avancer := vrai
 	|	SINON SI dest.x < 0
@@ -71,7 +73,7 @@ REPETER
 	
 	SINON SI position.z > destination.z ET vitesse.z > 0
 	|	ALORS
-	|	propulsion_verticale += 1
+	|	propulsion_verticale -= 1
 
 	//... horizontale en tranlsation
 	SI avancer = VRAI
@@ -103,5 +105,9 @@ REPETER
 	|	angle_moteur_gauche *= tourner
 	|	angle_moteur_droite *= -tourner
 	FIN_SI
+
+
+	//On agit ensuite sur les moteurs: chaque moteur tourne à la même vitesse, avec un angle possiblement différent
+	adapter_propulsion(angle_moteur_gauche, angle_moteur_droit, norme)
 
 FIN_REPETER
