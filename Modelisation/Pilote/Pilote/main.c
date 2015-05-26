@@ -49,8 +49,10 @@ int main(int argc, const char * argv[]) {
 			matrix_col_sum(deplacement, acceleration, deplacement);
 			matrix_col_sum(deplacement, v0, deplacement);
 		
-		//matrix_col_print(acceleration);
-		//matrix_col_print(vitesse);
+		/*matrix_col_print(acceleration);
+		matrix_col_print(vitesse);
+		matrix_col_print(deplacement);
+		printf("\n");*/
 		
 		//On calcul la nouvelle position du dirigeable
 			double θ = acquerir_angle_nord() / (2 * PI) ; //conversion degré/radians
@@ -80,6 +82,7 @@ int main(int argc, const char * argv[]) {
 			double angle_destination = atan(dest[0]/dest[1]);
 			double distance_destination = sqrt(pow(dest[0], 2) + pow(dest[1], 2));
 		
+			// Dans le plan (x, y)
 			if(distance_destination > 0.1){
 				if(dest[1] > 0 && isClose(angle_destination, 0, PI/16)){
 					if(vitesse[1] > .1 && acceleration[1] > 0){
@@ -110,37 +113,38 @@ int main(int argc, const char * argv[]) {
 				}
 			}
 		
-			printf("%f %d\n",angle_destination, tourner);
 		
 			// on adapte la propulsion verticale
-			/*if(position[2] < destination[2]){
-				if(vitesse[2] > 0.1){
-					if(acceleration[2] > .1){
-						propulsion_verticale -= 10 ;
+			if(position[2] < destination[2]){
+				if(vitesse[2] > 0.01){
+					if(acceleration[2] > .01){
+						propulsion_verticale -= 2 ;
 					}
 					else {
-						propulsion_verticale -= 1 ;
+						propulsion_verticale -= .5 ;
 					}
 				}
 				
-				if(vitesse[2] < .1){
-					if(acceleration[2] < 0){
+				if(vitesse[2] < .01){
+					if(acceleration[2] < -.1){
 						propulsion_verticale += 10 ;
 					}
+					else if(acceleration[2] < -.01){
+						propulsion_verticale += 5 ;
+					}
 					else {
-						propulsion_verticale += 1 ;
+						propulsion_verticale += .5 ;
 					}
 				}
 			}
 			else {
-				if(vitesse[2] < -.1){
+				if(vitesse[2] < -.01){
 					propulsion_verticale += 1 ;
 				}
 				else {
 					propulsion_verticale = 0 ;
 				}
-			}*/
-		
+			}
 		
 			//On réajuste ensuite les demandes moteur
 				if(propulsion_verticale > 100){
@@ -159,6 +163,8 @@ int main(int argc, const char * argv[]) {
 		
 			double norme = sqrt(pow(propulsion_verticale,2) + pow(propulsion_horizontale,2)) ;
 		
+			// si on demande une trop forte poussée aux moteurs, on réajuste la demande
+			// en donnant la priorité à la poussée verticale
 			if(norme > 100){
 				norme = 100 ;
 				int signe = propulsion_horizontale < 0 ? -1 : 1 ;
@@ -176,12 +182,14 @@ int main(int argc, const char * argv[]) {
 		
 			adapter_propulsion(norme, angle_moteur_gauche, angle_moteur_droit);
 		
-		
+		if(i % 15 == 0){ //On complète le log toutes les 5 périodes
+			printf("%f\n", position[2]);
+		}
 		if(i % 5 == 0){ //On complète le log toutes les 5 périodes
-			add_log(acceleration, vitesse, position, destination, propulsion_verticale, propulsion_horizontale, angle_moteur_gauche, angle_moteur_droit, angle_nord);
+			add_log(acceleration, vitesse, position, destination, propulsion_verticale, propulsion_horizontale, angle_moteur_gauche, angle_moteur_droit, θ);
 		}
 		
-	} while(i++ < 1000) ;
+	} while(i++ < 800) ;
 		
 	matrix_col_print(vitesse);
 	matrix_col_print(position);
@@ -190,4 +198,3 @@ int main(int argc, const char * argv[]) {
 	
     return 0;
 }
-			

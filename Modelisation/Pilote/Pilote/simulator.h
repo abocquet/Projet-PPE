@@ -16,16 +16,19 @@
 // et de l'environnement
 
 static const double masse = 1 ;
-static const double helium= 0.8 ;
+static const double helium= 0.827 ;
 
 static const double Cx = 0.07 ;
-static const double S = 1.35 ;
+static const double Sx = 1.35 ;
+
+static const double Cz = 1.32 ;
+static const double Sz = 1.35 ;
 
 static const double densite_air = 1.2 ;
 static const double gravite = 9.81 ;
 
-static const double k = 0.5 * Cx * S * densite_air ;
-
+static const double Kx = 0.5 * Cx * Sx * densite_air ;
+static const double Kz = 0.5 * Cz * Sz * densite_air ;
 
 // Caractéristiques des moteurs
 static const int norme_moteur_max = 20 ;

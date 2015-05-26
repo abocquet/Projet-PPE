@@ -29,7 +29,7 @@ REPETER
 	// on situe le déplacement du repère du dirigeable au repère de référence
 	position := { cos(angle_nord) -sin(angle_nord)  0 } x { x_deplacement } + position 
 				{ sin(angle_nord)  cos(angle_nord)  0 }   { y_deplacement }
-				{ 0					0				1 }   { z_deplacement }
+				{ 0					0			1 }   { z_deplacement }
 
 
 	// la position de la destination dans le repere du ballon
