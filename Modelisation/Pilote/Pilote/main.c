@@ -49,11 +49,6 @@ int main(int argc, const char * argv[]) {
 			matrix_col_sum(deplacement, acceleration, deplacement);
 			matrix_col_sum(deplacement, v0, deplacement);
 		
-		/*matrix_col_print(acceleration);
-		matrix_col_print(vitesse);
-		matrix_col_print(deplacement);
-		printf("\n");*/
-		
 		//On calcul la nouvelle position du dirigeable
 			double θ = acquerir_angle_nord() / (2 * PI) ; //conversion degré/radians
 		
@@ -115,36 +110,26 @@ int main(int argc, const char * argv[]) {
 		
 		
 			// on adapte la propulsion verticale
-			if(position[2] < destination[2]){
-				if(vitesse[2] > 0.01){
-					if(acceleration[2] > .01){
-						propulsion_verticale -= 2 ;
-					}
-					else {
-						propulsion_verticale -= .5 ;
-					}
-				}
-				
-				if(vitesse[2] < .01){
-					if(acceleration[2] < -.1){
-						propulsion_verticale += 10 ;
-					}
-					else if(acceleration[2] < -.01){
-						propulsion_verticale += 5 ;
-					}
-					else {
-						propulsion_verticale += .5 ;
-					}
+			if(vitesse[2] > 0.1){
+				propulsion_verticale-- ;
+				if(vitesse[2] > 1){
+					propulsion_verticale -= 10;
 				}
 			}
-			else {
-				if(vitesse[2] < -.01){
-					propulsion_verticale += 1 ;
-				}
-				else {
-					propulsion_verticale = 0 ;
+			else if(vitesse[2] < - 0.1){
+				propulsion_verticale++ ;
+			
+				if(vitesse[2] < -1){
+					propulsion_verticale += 10;
 				}
 			}
+			else if(position[2] < destination[2]){
+				propulsion_verticale++;
+			}
+			else if (position[2] > destination[2]){
+				propulsion_verticale-- ;
+			}
+	
 		
 			//On réajuste ensuite les demandes moteur
 				if(propulsion_verticale > 100){
@@ -182,18 +167,13 @@ int main(int argc, const char * argv[]) {
 		
 			adapter_propulsion(norme, angle_moteur_gauche, angle_moteur_droit);
 		
-		if(i % 15 == 0){ //On complète le log toutes les 5 périodes
-			printf("%f\n", position[2]);
-		}
 		if(i % 5 == 0){ //On complète le log toutes les 5 périodes
 			add_log(acceleration, vitesse, position, destination, propulsion_verticale, propulsion_horizontale, angle_moteur_gauche, angle_moteur_droit, θ);
 		}
 		
-	} while(i++ < 800) ;
+	} while(i++ < 1200) ;
 		
-	matrix_col_print(vitesse);
 	matrix_col_print(position);
-	
 	close_log();
 	
     return 0;

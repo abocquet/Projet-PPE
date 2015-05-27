@@ -16,7 +16,7 @@
 // et de l'environnement
 
 static const double masse = 1 ;
-static const double helium= 0.827 ;
+static const double helium= 0.873 ;
 
 static const double Cx = 0.07 ;
 static const double Sx = 1.35 ;

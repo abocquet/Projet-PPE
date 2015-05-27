@@ -67,22 +67,57 @@ void adapter_propulsion(boolean avancer, boolean tourner_gauche, boolean tourner
 
   d[0]=.0;
   d[1]=.0;
-
+  
   if (avancer) {
-    d[1] = 1 ;
+    d[1] = 1.7 ;
   }
 
   if (tourner_gauche) { 
     theta -= 1 ;
   }
-  if (tourner_droite) { 
+  else if (tourner_droite) { 
     theta += 1 ;
   }
+  
+  //On simule un vent
+  double[] vent = { 0, -.7 }; 
+  
+  double[][] matrice_passage = {
+    { 
+      Math.cos(radians(theta)), -Math.sin(radians(theta))
+      }
+      , 
+    { 
+      Math.sin(radians(theta)), Math.cos(radians(theta))
+      }
+    };
+    
+    d = sum_col_matrix(d, product_matrix(vent, matrice_passage));
+    println(d);
 }
+
 
 /*******************************************
  *    GESTION DE L'AFFICHAGE (HORS PILOTE)
  *******************************************/
+
+void keyPressed(){
+   switch(keyCode){
+      case UP:
+         target[1] -= 50;
+         break; 
+      case DOWN:
+         target[1] += 50;
+         break; 
+      case LEFT:
+         target[0] -= 50;
+         break;    
+       case RIGHT:
+         target[0] += 50;
+         break; 
+   }
+  
+}
 
 void dessiner() {
   background(255);

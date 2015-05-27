@@ -45,60 +45,96 @@ REPETER
 
 
 	//Gestion de la trajectoire dans le plan
-	SI(distance_destination > 0.5)
+	SI distance_destination > 0.1
 	|	ALORS
-	|	SI(dest.y > 0 ET angle_destination ENTRE ( -π/16 et π/16))
-	|	|	ALORS
-	|	|	avancer := vrai
-	|	SINON SI dest.x < 0
-	|	|	ALORS
-	|	|	tourner := -1
-	|	SINON SI dest.x > 0
-	|	|	tourner := 1
+	|	SI dest.y > 0 ET ENTRE -π/16 et π/16
+	|	|	SI vitesse.y > .1 && acceleration.y > 0
+	|	|	|	ALORS
+	|	|	|	propulsion_horizontale -= .1
+	|	|	FIN_SI
+	|	|				
+	|	|	SI vitesse.y < .1
+	|	|	|	ALORS
+	|	|	|	propulsion_horizontale += .1
+	|	|	FIN_SI
+	|	|
+	|	SINON
+	|	|	propulsion_horizontale := .2
+	|	|			
+	|	|	SI dest.x < 0
+	|	|	|	ALORS
+	|	|	|	tourner := -1
+	|	|	FIN_SI	
+	|	|
+	|	|	SINON SI dest.x > 0
+	|	|	|	ALORS
+	|	|	|	tourner := 1
 	|	|	FIN_SI
 	|	FIN_SI
-
-	//Une fois prise la décision, on adapte la propulsion verticale...
-	SI position.z < destination.z
-	|	ALORS
-	|	SI vitesse.z > 1 ET acceleration.z > 0
-	|	|	ALORS
-	|	|	propulsion_verticale = propulsion_verticale - 1 
-	|	FIN_SI
-	|
-	|	SINON SI vitesse.z < 1
-	|	|	ALORS
-	|	|	propulsion_verticale = propulsion_verticale + 1
-	|	FIN_SI
-	
-	SINON SI position.z > destination.z ET vitesse.z > 0
-	|	ALORS
-	|	propulsion_verticale -= 1
-
-	//... horizontale en tranlsation
-	SI avancer = VRAI
-	|	ALORS
-	|	SI vitesse.y > 1 ET acceleration.y > 0
-	|	|	ALORS
-	|	|	propulsion_horizontale = propulsion_horizontale - 1 
-	|	|
-	|	FIN_SI
-	|
-	|	SINON SI vitesse.y < 1
-	|	|	ALORS
-	|	|	propulsion_horizontale = propulsion_horizontale + 1
+	SINON
+	|	SI vitesse.y > 0.01 //on ralenti à l'approche de l'objectif
+	|	|	propulsion_horizontale := -7
+	|	SINON
+	|	|	propulsion_horizontale := 0
 	|	FIN_SI
 	FIN_SI
+	
 
-	norme = propulsion_verticale + propulsion_horizontale
-
+	// on adapte la propulsion verticale
+		SI vitesse[2] > 0.1
+		|	ALORS
+		|	propulsion_verticale--
+		|
+		|	SI vitesse[2] > 1
+		|	|	ALORS	
+		|	|	propulsion_verticale -:= 1
+		|	FIN_SI
+		|
+		SINON SI vitesse[2] < - 0.1
+		|	ALORS
+		|	propulsion_verticale++
+		|
+		|	SI vitesse[2] < -1
+		|	|	ALORS	
+		|	|	propulsion_verticale +:= 1
+		|	FIN_SI
+		|
+		SINON SI position[2] < destination[2]
+		|	ALORS
+		|	propulsion_verticale+
+		SINON if (position[2] > destination[2]
+		|	ALORS
+		|	propulsion_verticale--
+		FIN_SI
+	
+	
+	//On réajuste ensuite les demandes moteur
+		SI propulsion_verticale > 100
+		|	ALORS
+		|	propulsion_verticale := 100
+		SINON SI propulsion_verticale < 1
+		|	ALORS
+		|	propulsion_verticale := 1
+		FIN_SI
+	
+		SI propulsion_horizontale > 100
+		|	ALORS
+		|	propulsion_horizontale := 100
+		SINON SI propulsion_horizontale < -100
+		|	ALORS
+		|	propulsion_horizontale := -100
+		FIN_SI
+	
+	norme := RACINE(CARRE(propulsion_verticale,2) + CARRE(propulsion_horizontale,2))
+	
+	// si on demande une trop forte poussée aux moteurs, on réajuste la demande
+	// en donnant la priorité à la poussée verticale
 	SI norme > 100
 	|	ALORS
-	|	norme = 100
-	|	propulsion_horizontale = norme - propulsion_verticale //On donne la priorité à la suspension en l'air
-
-	angle_moteur_gauche = arctan(propulsion_horizontale / propulsion_verticale)
-	angle_moteur_droite = arctan(propulsion_horizontale / propulsion_verticale)
+	|	norme := 100
+	|	signe := propulsion_horizontale < 0 ? -1 : 1
+	|	propulsion_horizontale := signe * RACINE(CARRE(norme, 2) - CARRE(propulsion_verticale,2))	
+	FIN_SI
 
 	SI tourner != 0
 	|	ALORS
