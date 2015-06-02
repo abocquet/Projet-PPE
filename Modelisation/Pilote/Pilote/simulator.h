@@ -61,7 +61,7 @@ int isClose(double value, double ref, double marge);
 static FILE* log_file = NULL;
 
 void setup_log();
-void add_log(double*, double*, double*, double*, int, int, double, double, double);
+void add_log(double*, double*, double*, double*, double, double, double, double, double);
 void close_log();
 
 #endif /* defined(__Pilote__simulator__) */

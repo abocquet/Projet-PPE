@@ -168,7 +168,7 @@ int main(int argc, const char * argv[]) {
 			adapter_propulsion(norme, angle_moteur_gauche, angle_moteur_droit);
 		
 		if(i % 5 == 0){ //On complète le log toutes les 5 périodes
-			add_log(acceleration, vitesse, position, destination, propulsion_verticale, propulsion_horizontale, angle_moteur_gauche, angle_moteur_droit, θ);
+			add_log(acceleration, vitesse, position, dest, propulsion_verticale, propulsion_horizontale, angle_moteur_gauche, angle_moteur_droit, θ);
 		}
 		
 	} while(i++ < 1200) ;
