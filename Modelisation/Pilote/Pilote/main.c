@@ -16,7 +16,7 @@ int main(int argc, const char * argv[]) {
 	
 	setup_log();
 	
-	double destination[3] = {20, 10, 3} ;
+	double destination[3] = {0, 5, 3} ;
 	
 	double vitesse[3] = {0} ;
 	double position[3] = {0} ;

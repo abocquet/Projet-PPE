@@ -18,7 +18,7 @@
 static const double masse = 1 ;
 static const double helium= 0.873 ;
 
-static const double Cx = 0.07 ;
+static const double Cx = 0.45 ;
 static const double Sx = 1.35 ;
 
 static const double Cz = 1.32 ;
